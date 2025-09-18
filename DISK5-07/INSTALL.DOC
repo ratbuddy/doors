@@ -1,0 +1,188 @@
+                          INSTALLATION AND SYSOP NOTES
+
+                                      For
+
+                            PIT FIEND'S ADSVENTURE!
+
+     How to Install:
+
+       Pit Fiend's Onliner comes with many files.  Most of them are
+     Dungeon Files or Data files.  It will create more as the game is
+     being played, such as *.SAV and *.MSG files.  It is recommended that
+     you read this carefully so that you can save Hard Disk Space and
+     organize your hard Drive Correctly.
+
+     Settup up the Chain.
+
+       Batch File:
+         This game performs best with SHRINK method.  It is not
+         required, but it does work best!  Therefore if you wish
+         to put this game in its own sub-directory you must do the
+         following things to assure that it can access all of the files.
+
+       1.  Create a batch file called PIT.BAT.  By typing COPY CON
+           PIT.BAT at the dos prompt in the WWIV sub directory.
+           Then type the following things:
+
+           a.  CD\XXXXXXX <---- whatever you decide to name the
+               sub directory
+
+           b.  PITONL %1
+
+           C.  cd.. (back to the WWIV directory!)
+
+           d.  Ctrl-Z (don't actually type words but just CTRL-Z!)
+
+       2.  This will save the batch file.
+
+     Now make a chain using Chain edit which will call PIT.BAT by
+     typing the following chain c:\wwiv\pit %1.  When pit.bat is called
+     it will then change directories to the one you out the adventure in
+     and call it, passing the parms.
+
+
+     Telegard users and others will have to figure out how to do it
+     themselves, as I am not experienced with those systems....
+
+                                    Page -1-
+
+     Initializing the Game:
+
+        This will make sure that the game has not been tampered with or
+        a previous user's locations aren't saved.  Type REROLL in DOS.
+
+        This will refresh the location and table data files.  It will
+        also erase all files ending in the extension *.SAV and *.MSG -->
+        VERY IMPORTANT.  The game will also periodically destroy *.MSG
+        files so be sure that you subs don't end in the extension *.MSG
+        (if they are in the same sub directory as the onliner).
+
+        You can also run CMMOUTH.COM to renew the magic mouth incase
+        you don't like what somebody said!
+
+     Chain Requirements:
+
+        This game uses the default for DOS interrupts, which I believe at
+        the present moment is yes.  You must use Shrink.  You config.sys
+        file must have the string DEVICE = ANSI.SYS in it.  ANSI is a
+        requirement for this game!!!!!!  People who can't support ANSI
+        will have grave misgivings about the game, as it will shoot
+        garbage all over the screen.  It is recommended that 300 baud
+        not be allowed to play for obvious reasons....
+
+     Boards Over 750 users!
+
+     If your board has more than user number 750 please do the following:
+        1)  Donate at least $5.00 to the address below and tell me how
+            many users you do have and I will fix the data files to be
+            much bigger.  Send a Xerox copy of the endorsed/cancelled
+            check to me.
+
+        2)  Make sure that users who's user number is over 750 cannot
+            play the game....
+
+        The data files are 750 records and if use 751 comes along....
+        unknown amounts of damage can be done....
+
+     Source Code:
+
+         The Source code will be available (everything!) for donators
+         who contribute atleast $20.00.  This allows you to modify the
+         game in any way.  Although, you cannot distribute it.  If you
+         feel that your game is not working correctly, donate atleast
+         $5.00 to the address below and I will send you untampered with
+         data files and COM files.  This game has run under all WWIV
+         boards.
+
+         The game was programmed using Turbo Pascal 3.0, therefore
+         ownership of Turbo Pascal is a requirement for purchase of
+         the source code.  The game will NOT compile with newer versions.
+
+         Donators also will be kept informed on how progress of the
+         sequal, Pit Fiend's Revenge, and will receive upgrades as
+         the come out...
+
+                                    Page -2-
+         Knowledge of Turbo Pascal is a requirement also for the source
+         code, it comes with very little commentation but it should be
+         fairly easy to follow.....
+
+     Notes on Files:
+
+        If a user is deleted off your board or decides never to call
+        again, or just doesn't want to play do NOT delete the character
+        buy conventional ways.... This could cause File Not Found and
+        Run Time Errors....
+
+        Use the Character Editor to destroy them, entitled VIEWCHAR.EXE
+        Viewchar is meant to be used for these reasons, or for cheating.
+
+        Also you can delete any *.MSG files (they will ocntinue to
+        grow in size until the reader reads them) without any hestitation
+        by using DOS's erase command.
+
+        Note that #.SAV and #.MSG files are saved by the character's
+        user number.  Make sure you know the character's user number.
+
+     Notes on Viewchar.EXE
+
+        This is not an onliner program, it will hang the board if it is
+        used as one.  Viewchar allows the sysop or anyone else for that
+        matter at the keyboard to modify there character to drastic
+        measures.... having given one of my characters a 200 strength,
+        made me nearly invincible.  I suggest using it with caution.
+
+        It was made to repair characters who had been hurt by a bug or
+        just wanted to get a helping hand.  A score greater than 20 in
+        an attribute is very good.
+
+        Viewchar should be handled with care, giving a character an
+        massive amount of anything will spoil the user's ability to enjoy
+        the game!  If you find the monsters are too tough or you want
+        a "walk-thru" character use it!  It will not allow you to modify
+        a character's dungeon location, as this is a confusing process
+        which most likely you will screw up on and put the character in
+        a nonexistant dungeon OR in a dungeon where he can't escape!
+
+        When running Viewchar be sure that it can get to all the *.DAT
+        files in the sub directory, it will need to load all the potions
+        and weapons (etc).  Naturally it must have access to the the
+        *.SAV files!
+
+                                    Page -3-
+     Bugs and etc..
+
+
+     If you find a bug in the game (and I know there still are some,
+     nobody's perfect) please write me at the following address with a
+     good description of where, how, and etc this thing happened.  I will
+     try to make a fix on it ASAP.
+
+     If you do find a bug and it is relatively minor, try to avoid it, as
+     I will only send out a new version if it is a major bug...
+
+     My address is:  Eddie Gaul
+                     2917 Via Rivera
+                     Palos Verdes, CA  90274.
+                     USA.
+
+     Donations should go to the following address:
+
+                     COMMUNITY HELPLINE (make checks out to this!)
+                     PO BOX 2053
+                     Palos Verdes, CA 90274
+                     USA.
+
+     If you want the source code please send a copy of the check as well
+     as $1.00 to help cover postage, handling, and disk costs!
+
+     Donations should go there likewise (for more information on
+     donations PLEASE read the RULES.DOC).
+
+     Until the sequal have fun and be sure that players read the
+     RULES.DOC.  By making them a Gfile or whatever is neccessary!
+
+
+     P.F.  3-20-1990
+                               Page -4-
+
