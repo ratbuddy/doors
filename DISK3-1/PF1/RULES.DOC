@@ -1,0 +1,625 @@
+             T H E   R A G E   O F   T H E   P I T   F I E N D
+
+     
+                  Documentation for the Pit Fiend Onliner
+                               Copyright 1990
+                            All Rights Reserved
+     
+     
+          Welcome to The Rage of the Pit Fiend, a new onliner 
+     experience in dungeon exploration.  Other games will come out
+     shortly following the conquests of the evil demon Pit Fiend.
+     
+                                 The Story
+     
+     In the land of Cromtenia there has been good fortune of late.  
+     The tides of evil have been turned.  Recently, though, there has 
+     been trouble.  A renegade wizard named Loran summoned a Pit 
+     Fiend through one of his evil sorcerous conjuring.  Together, 
+     then teamed up to conquer the world.  They were successful in 
+     many cases, wreaking havoc throughout the land.
+     
+     The King of the land, Lord Ryets, summoned his best knights, 
+     white wizards, nimble elves, hearty dwarves, and lawful priests 
+     and battled Loran and his Pit Fiend.  They met with several set
+     backs but fortunately they were able to force Loran and the Pit
+     Fiend into a mighty castle, where they are "holed" up.
+     
+     Now he has called upon the last of his adventurers (namely the 
+     BBS'ers) to finish the Pit Fiend and Loran off as well as all of 
+     his minions.  He has offered a grand reward for the person who 
+     kills the Pit Fiend and Loran.  
+     
+     Namely his most beautiful elven princess or half-elven male
+     (depending upon preference/sex) in reward.  This person will 
+     also be the future ruler of Cromtenia and great riches will be 
+     theirs.......  
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                  Page -1-
+
+                               Addition Notes
+
+     To get in contact with me about any questions you may have,
+     bugs, etc.. can be brought to my attention on Castle Kzin (213)
+     379-4094, Circus Maximus (213) 640-1643, and the Engima BBS
+     (213) 370-9063.  The general board for questions is Castle
+     Kzin.  I should be able to be reached on the Online Net.  Check
+     Enigma's Net Number to E-mail through the net, as I frequently
+     answer my mail there.
+
+                                  Credits:
+
+     Programming:  Lukas and Pit Fiend
+
+     Dungeon Designs:  Pit Fiend, Jack of Spades and Slyslop.
+
+     Ansi Drawings:  Pit Fiend
+
+     Original Concept :  Pit Fiend, Lonewolf
+
+     Documentation:   Pit Fiend
+
+     Special Thanks:
+
+        Jim and Ali:  To whose patience and helpful advice was most
+     encouraging and EXTREMELY helpful, thanks...
+
+        Dan R.  :  Thanks for the programming tips, actually used
+     just about everything you suggested (much to Lukas's disgust).
+
+        Dragonbone:  Hey, thanks for mods, killer, combat works great
+     now and much faster!  See ya in the sequal.
+
+        Eldritch:  Thanks for help on ANSI, the 5.0 common.pas's, and
+     the Seek command, whose help was of much important.
+
+        Thanks the the BBSes listed in the credit screens for Betaing
+     the game (at the risk of their boards being hung or something),
+     thanks.....  Many thanks also go out to After Midnite BBS,
+     Nuclear Reactor, Enigma, Circus Maximus, and Castle Kzin (where
+     it received very good reviews and impressive use)!
+
+        A very special thanks goes out to Maximus of Circus Maximus
+     who gave me the codes to write the Goto_Ansixy routine which
+     sped the game up immensely!  Also special thanks to all at
+     Castle Kzin for the bug finds and helpful advice!
+
+        Also many thanks to Slyslop and Jack of Spades, who did about
+     50% of level 1, enjoy their mazes.  
+                                  Page -2-
+
+                                DONATIONS & THE MAKING
+
+     At first I was going to make this thing a partial game, you
+     receive half of the dungeon levels until I got money from you or
+     something like that.  But unfortunately bad news hit a week or
+     so ago and it made me think how I got into programming this
+     silly onliner....
+
+     In October of 1989 I wanted to program something big.  Really
+     big.  I was basically new to modeming and had absolutely NO idea
+     what an onliner was.  Foodfite was a mystery to me.  I was also
+     a mediocre programmer, with no concept of crunching code or
+     memory size/allocation etc... , this is the first big program
+     I have EVER written.
+
+     I started to work on an adventure, similar to what you are about
+     to play.  I worked hard but to no avail.  Things were just not
+     working.  Then I met Mike.   I told him what I wanted to do
+     and I told him I thought I wanted to make an onliner,
+     so that people could play a quality adventure without
+     having to pay the $50.00 to buy a game.  I took it upon myself
+     to make such a game, a game people would enjoy, and a game where
+     people would call to play it.
+
+     At first it was called King Lagor's dungeon, had a crazy little
+     plot and all, but finally it boiled down to Pit Fiend's
+     Onliner.  At first things were tough, the 64K source limit kept
+     hitting me, and I still hadn't learned how to do overlays.  After
+     several months of condensing, shortening, and making data files etc
+     I finally got it all together....
+
+     Mike's phone was ringing quite a bit during those months,
+     and even the last month before this game's release, his phone
+     was ringing with me exclaiming, "Hey, guess what I added and it
+     works perfectly!"  There was also many times that I was going to
+     abort the project.  It seemed that he was the only one who felt I
+     could do it during those early months -- and that meant very
+     much to me.
+
+     Anyhow, Mike was constantly getting calls from me.  I was telling
+     him what I had added and what I had taken out.  And he
+     listened...
+
+     Without Mike to whom I left E-mail to or just call to say
+     hello and see what was up; would've made this game very
+     difficult, if not impossible to program.  His comments,
+     suggestions,and much need encouragement got me through this
+     program, and when the Beta version was floating around the South
+     Bay here, he was still giving plenty of advice and compliments
+     about my creation .
+
+                                  Page -3-
+
+     Anyhow, early in March of this year, writing, he passed away.  I was
+     shocked and very upset.  I almost trashed my game when I heard the news. 
+     I miss the calls to his house the ones where I would be telling him 
+     about the progress of The Game....
+
+     I will miss Mike and his help when I do the sequel.  That is why
+     I am requesting that if you play this game, and enjoy it or
+     whatever, to send a donation of greater than $5.00 to the
+     address shown below.  The money will go to prevent suicides in 
+     the area or or help troubled people.  This donation should be 
+     tax deductable as well.
+
+     This is the least I can do in remembering him and hope that your
+     donation can fight the waste of life.
+     
+     
+       P.F. 3/20/1990
+     
+     
+     Any donation in excess of $20.00 will receive a copy of ALL the 
+     source code, to modify as you please, IF it is requested.  It 
+     will be sent via US Postal Service on a Floppy disk (5 1/4 
+     only!).  Please send me a photocopy of the cancelled check plus
+     $1.00 to cover postal charges and the floppy disk.
+     
+     Send Donations to:  COMMUNITY HELPLINE (<-- one word)
+                         PO BOX 2053
+                         PALOS VERDES ESTATES, CA 90274
+                         United States of America
+    (** Please tell 'em that you are donated because of this game!   ** )
+
+     For copy of the source code or comments please contact:
+           Eddie Gaul
+           2917 Via Rivera
+           Palos Verdes Estates, CA  90274
+           United States of America
+     
+     I urge you to send something, or even a letter with comments 
+     about the game if you are unable to donate.  This is the most I 
+     can ask for.  Your donations/comments will be greatly appreciated.
+     
+                                Thanks  P.F.
+                                      
+     
+     
+     
+     
+     
+     
+                                       Page -4-
+                         How do I play this thing?
+     
+     First of all you must generate a character.  At the main menu 
+     hit 'C'.  You will then be presented with 8 or so different 
+     stats:  Strength (STR), Intelligence (INT), Wisdom (WIS), 
+     Coordination (CRD), Health (HTH), Personality (PER), Spell 
+     Points (SPT) and Luck (LCK).  Each score ranges from 05-25.  5 
+     is the worst and 25 is the best.  You will also be presented 
+     with a choice of classes.
+     
+     STR -- How strong you are -- the stronger you are, the more 
+     damage you can deal out.
+     
+     INT -- Good for Magic Users that's about it.
+     
+     WIS -- Modifies a cleric's chances of turning.
+     
+     CRD -- Modifies your Armor Class and a Thieve's Chance of doing 
+     double damage.  Also helps out in traps.
+     
+     HTH -- Health modifies how many hit points you get when you 
+     start or gain a level.
+     
+     PER -- Personality affects how people react to you.
+     
+     SPT -- For magic Users, determines how many times you can cast a 
+     spell (see Staves)
+     
+     LCK -- Modifies saving throws.
+     
+     1)  Fighter -- you can always be a fighter, just make sure you 
+     are strong!
+     
+     2)  Magic User -- Them and Elves are the only ones to use 
+     Staves.
+     
+     3)  Priests -- awesome power against undead, decent fighting 
+     skills, easy level gaining.
+     
+     4)  Rogue -- Very High Initiative, good weaponry, decent armor, 
+     very easy levels to be gained, good fighting, most moves per 
+     day.  Also there is a chance he will do double damage every time 
+     he hits.
+     
+     5)  Elf -- Awesome, hard to get, hard to gain levels, can use 
+     magic, very good weapons, okay armor.
+
+     6)  Dwarf -- ultra fighter.  Excellent weaponry + armory, hard 
+     to gain levels, very powerful....
+     
+     Note Magic is VERY powerful in this game, but woe be it to any 
+     magic user whose spells do not work so well......
+     
+     You are allowed TEN rerolls per DAY.  Choose a class and begin 
+     adventuring or else call back the next day and try again....
+                                  Page -5-
+
+     You are allowed to reroll a character as many times as you want, 
+     you just can't roll more than 10 times in one day!
+     
+                                  The Bank
+     
+     Here is a nice safe place for you to place your gold.  The 
+     Deposit command allows you to deposit money into your account.  
+     To see your account hit 'Y'.  To withdrawal money hit the 'W'.  
+     Your money will be accessible even in the dungeons!  There are 
+     several banks operating on each level so that you can place or 
+     get money even in there!  
+     
+     It is a good idea to put money in there because when a character
+     kills you (another BBS'er) he will take 50% of your gold!  Also 
+     when you flee from monsters they will take some also!  But it is 
+     a good idea to have some in case you run into the general stores
+     on the dungeon levels!
+     
+                             The General Store
+     
+     The General Store is your place to purchase weapons, magic
+     staves, and armors!  Geron runs the establishments and sells his 
+     wares for no cheap cost.  He also sells Magic Items, which can 
+     only be bought.  Depending upon which level of the dungeon you 
+     are on he will sell you a magic armor or weapon of varying 
+     power!  (i.e. you can find a +2 Broad Sword on Level 2 etc..)  
+     Of course they will be MUCH more expensive.
+     
+     Armor
+     
+     Armor protects you from the viciousness of the monsters that 
+     wander about!  Armor also has its drawbacks, especially the very 
+     heavy ones.
+     
+     Depending upon your class, you will have several choices of the 
+     types of armors you can have.  There are several things to note
+     about armor:
+     
+        1)  Cost -- the more expensive the armor the better it is
+        2)  Protective Value -- the more the better
+        3)  Magical Bonus -- increases Protective Value.
+        4)  Movement Hinderence -- if you have heavy armor, you won't 
+     be able to move around as fast as a person who doesn't have as 
+     much armor....
+        
+     Armor is considered worn at all times and can be found in the 
+     "Equipped Armor " type during a View character scan.  You start 
+     the game with no armor.
+     
+     Weapons:
+     
+     You will definitely need these.  There are two types of weapons, 
+     missile weapons and melee weapons.  Melee weapons can only be 
+     
+                                  Page -6-
+
+     used in close combat (see Combat section).  While Missile 
+     weapons can only be used in missile combat.  You have an 
+     unlimited amount of ammunition for missile weapons.
+     
+     Here are some facts about weapons:
+        1)  Cost -- usually the more expensive the more damage they
+     can deal out.
+     
+        2)  Two Handed Weapons -- you can use these but if you have a 
+     shield it will not count towards your armor class, although, you 
+     still we be able to carry a shield.
+     
+        3)  Magical Bonus -- as armor except this modifies your 
+     chances of hitting and doing damage.
+     
+     Magic Staves:
+     
+        Only Mages and Elves are allowed to purchase this section.  
+     Others may only look and stare......  Each staff can deal out a 
+     lot of damage and affect ALL monsters during combat, although 
+     monsters are allowed a saving throw.   You are limited to the 
+     use of these staves by your spell points (MPS).  You regain 
+     spell points by resting.
+     
+         1) Cost --  the more a staff costs the more damage it can 
+     do.
+      
+         2) Damage -- this is the maximum amount of damage this staff 
+     can do.  Divide this number by 8 to get the MINIMUM amount of
+     damage this staff can do.  Successful saving throws will halve 
+     the amount of damage incurred.
+     
+         3)  Success Chance -- This is a percentage (base) which is 
+     modified by your level, intelligence, and a few other factors.
+     If you fail to cast a spell successfully, you will loose the 
+     spell points (MPS) that were neccessary to cast the spell.  
+     Usually the lower staves on this list have the highest chance of 
+     success but do less damage compared to the more powerful ones.
+     
+         4)  Spell Point Cost -- this is the amount of points 
+     necessary to cast the spell.  If you do not have the spell 
+     points neccessary to cast the spell, you will not be able to use 
+     the staff.  
+     
+     Monsters can cast spells too.  There spells are equivalent to 
+     your staves in most respects......
+     
+     MPS -- Magic Points (or Spell Points) are like hit points, 
+     except if you run out of these you will not die.  It is VERY
+     good to have a large amount of MPS's if you are a spell casting 
+     character.
+
+                                  Page -7-
+
+                                 The Tavern
+     
+     Here is a place for you to pass the time away and drink and
+     gamble.  Drinks are expensive but you can hear some interesting
+     rumors (sometimes) while you pass the time away.
+
+     Gambling is also legal.  Slots and Dice Games are very common
+     here.  Dice is usually played by more than 2 people.  The one 
+     who rolls the highest takes the pot.  If any two tie, then 
+     everybody takes their share of the pot back and the game 
+     restarts.  Slots are fairly self explanatory.
+     
+                                ADVENTURING
+     
+     This section includes the topics of dungeon exploration and 
+     combat.  This too is a very important section.
+     
+     DUNGEON EXPLORATION
+     
+     The dungeons are based in IBM extended characters.  Here are 
+     some special characters for you to keep an eye out for:
+     
+     A -- The General Store -- yes there are general stores in the 
+     dungeon to keep you well equipped with magical items.
+     
+     B -- The Bank -- deposit or withdrawal your money from here.
+     
+     C -- Another Character  -- This is a fellow BBS'er.  If you move 
+     on to the same space as him/her you will be asked if you wish to 
+     get into combat.  If you decline, you are allowed to send a
+     message to this person (up to 80 chars).  This DOES NOT consult 
+     the Trashcan.TXT.  If you decline to send a message, the program 
+     will automatically send one to this person saying that you 
+     passed them and DID NOT attack them.  If you attack them you 
+     will also be able to send a message to them (if you win), if you 
+     do not send a message, the program will send the above to 
+     him/her but without the "NOT".
+     
+     Character vs Character combat is just like other combat, except 
+     if you win, you will be rewarded by a percentage of your 
+     opponent's gold.  No harm will come to the other player except a
+     percentage of their gold gone.  Be sure and hide your character 
+     by staying away from places that are near stairs etc....
+
+     
+     D -- Door -- most doors go to into rooms.  You will instantly be 
+     put into combat with up to four monsters.  You can always 
+     continuously reenter a room, but this is NOT recommended because 
+     you will miss many of the important sections of the dungeon.
+     
+     H -- Buy Potions -- a little gnome will sell you potions.
+     
+     S -- Stairs -- all stairs go up.
+                                  Page -8-
+
+     T -- Tavern -- that's where you want to go to take a break!
+     
+     Signs-- (ANSI character), looks like an upside-down J or L.  
+     These are VERY Important and contain clues about the game.  Try 
+     typing alt-226 to see what I mean, read these at all costs!
+     
+     Up side down '!''s are talking statues, if you can touch them.  
+     They can offer gifts .. for a price.
+
+     A funny looking F (an integral sign) is a fountain.  Again if 
+     you can reach this thing, it will give you MANY benefits.  But 
+     it does have its drawbacks -- the more you use it the more
+     chance of something terribly EVIL of happening to you may take 
+     effect.......
+     
+     #, P, and other symbols NOT mentioned above are EXTREMELY 
+     special and should be met with caution, because of THEIR great 
+     importance.  
+                                  Page -8-
+
+     To ease movement, it is suggested that you keep you NUM-LOCK key
+     on.  Do NOT overfill the buffer, you may accidently walk into 
+     something you don't want OR you will repetitively walk into a 
+     wall and decrease your movement for the day.  
+     
+     Magic Mouths:
+     
+     These things appear at random and often times say very strange 
+     things to people.  After reading it, you will be allowed to 
+     change it.  The next person that encounters the Magic Mouth will 
+     read what you had said.  So don't be nasty about it....
+
+     Strange Numbers:
+     
+     Yes, on one particular level there are some strange numbers
+     being given out.  But they are unique for every player.  Just 
+     because you have found yours, doesn't mean that they are the 
+     same for the next player!  Enjoy that puzzle....
+     
+     Strange Encounters:
+     
+     Yes there are some wondering encounters for you to fight.  Also 
+     there are some strange findings that will randomly pop up.  
+     Traps are also abound.  Just be ready for them, and make sure
+     your hit points are in good order!
+     
+     Whenever you take a step in the dungeon there is a chance that 
+     you will have rested enough to restore 1 hit point AND 1 magic 
+     point.
+     
+                              Special HotKey!
+      
+     By hitting the Letter 'Z' while inside the dungeon, will
+     teleport you back to level 0, the town, use only when necessary!
+     Also by hitting 'S' inside the dungeon, will save your character
+     and his current status but NOT end the game!  Use this if you are
+     getting hectic amounts of line noise and/or about to be cut off!
+
+                                   COMBAT
+
+     Combat is a very essential part of the game.  It is necessary to
+     fight and quite often you will be harassed by a group of 
+     wandering monsters in the dungeon.  Some of these encounters 
+     will be harder than others.  Most monsters are can be guessed 
+     (through previous experiences in other fantasy role playing 
+     games), but learning the strengths and weaknesses of other 
+     monsters are up to you.  
+     
+     How to Fight:
+
+     1)  When you encounter a group of monsters, you will be put into 
+     the combat mode.  You will find yourself engaged by up to four 
+     monsters.  These monsters will attack until either you kill them 
+     or they kill you, whichever comes first......
+     
+                                 Page -10-
+
+     2)  You will be prompted by a (1234MPRTUX) prompt.  Here is what
+     they mean:
+
+     1 .. 4 mean attack a monster (depending upon which position)
+
+     M .. change the Missile/Melee status of the monsters (see next
+     section)
+
+     P .. do nothing that turn -- use it when you want to pass OR
+       if all the monsters are dead and you still have more attacks
+       to do!
+     
+     R .. Run away, you will loose 25% of any or all gold you are 
+     carrying, but it you will escape with your life.
+     
+     T .. if you are a Priest you will be able to turn undead 
+     creatures.  You can only turn once per combat and is the chance 
+     of success is based on your wisdom and Priestly level.
+     
+     U .. Use Staff, magic users will be able to cast a spell at this 
+     time.  The chance of success is based upon your level and 
+     intelligence.
+     
+     X .. Drink a Potion -- hope you have one before you hit this
+     key!
+
+                               Missile/Melee
+
+     Yes, this game has a difference between melee and missile
+     weapons.   Be sure and buy at least one melee and one missile 
+     weapon.  Monsters will often times have missile weapons also, 
+     which they will often use.  
+     
+     When you attack the program checks to see whether the monster is 
+     in melee or missile in RELATION to you.  If you are in missile 
+     combat you will use your missile weapons while if you are in 
+     melee you will be using you melee weapon.  
+     
+     To force all monsters to go back to missile (like monsters 
+     without missile weapons) hit the M key.  The program will ask 
+     you whether you wish the monsters to all go to missile or
+     melee.  Choose the appropriate.  
+     
+     Spells are multi ranged and so is turning.  That is it doesn't 
+     matter where the monster is located.
+     
+                                  Potions
+
+     There are eight different kinds of potions.  
+     
+     Potions of Healing will heal you 3-18 hit points per draught.  
+     You can use these instead of resting or in a dire combat 
+     situation.
+     
+     
+                                 Page -11-
+
+     Potions of Spell Point Restoration:  This will restore 3-18 
+     spell points, very important if you are a magic user.
+     
+     Potions of Strength, Intelligence, Luck, and Coordination:
+     These will increase the appropriate ability for one call, or 
+     until you walk into a bank or armory.  The most you can modify 
+     your strength is by 15, so don't drink too much.
+     
+     Time Distortion:  Once per call you will be allowed to drink ONE 
+     of these.  It will give you an additional 50 moves.
+     
+     Liquid Gold:  These are like walking banks.  Buy them at 550 gps 
+     and use them to make 500 gps.  No profit, but if a character
+     kills you, he won't be able to get these from you, and that
+     includes the monsters also.
+     
+     The most you can have of any one type of potion is 255.  Trying 
+     to buy more than the allotted amount, will just give you 255.
+     
+                              Character Table
+     
+     This handy little thing occurs when you quit the game.  It will 
+     give you a list of the players in the game, their class, level, 
+     and dungeon level!  That way you can determine if you are 
+     lagging behind or way ahead of the pack!  It will also show if 
+     somebody has won or not.
+     
+     
+                            Tips and Suggestions
+
+     It is suggested that players do the following:
+     
+     1)  Read all signs that you encounter.
+     2)  Fight often but do not over do it this will get tiring after
+         a while, there is plenty to do in the dungeons.....
+     3)  Each level has a guardian, learn about them well....
+     4)  Buy magical stuff as soon as possible, it is very important.
+     5)  Do not always kill other players, as this will most likely
+         provide a very stale game as well as a lot of hostilities.
+     6)  Equip your character before going into the dungeon,
+         otherwise you will become a very dead adventurer.
+     7)  Don't put all of your money in the bank, you may need it
+         later....
+     8)  Find the numbers in the dungeon, level 1.
+     
+     
+     
+                                 Page -12-
+                            DISCLAIMERS & LEGALITIES
+
+   Pit Fiend's Onliner is ENITIRELY my own work.  Any similiarties between   
+   living, dead, are purely coincidently.  All characters in this game are    
+   fictitous.
+
+   You may distribute this game only in original form.  That is copy it 
+   freely, but if you modify any of the contents -- executable code, 
+   instructions files, help screens, dungeon maps etc.... you may not
+   distribute it, this includes those who have purchased the source.
+
+
+

@@ -1,0 +1,131 @@
+                          INSTALLATION AND SYSOP NOTES
+
+                                      For
+
+                               BARBARIAN TALES!
+
+       Batch File:
+         This game performs best with SHRINK method.  It is not
+         required, but it does work best!  Therefore if you wish
+         to put this game in its own sub-directory you must do the
+         following things to assure that it can access all of the files.
+
+       1.  Create a batch file called PIT.BAT.  By typing COPY CON
+           BARBAR.BAT at the dos prompt in the WWIV sub directory.
+           Then type the following things:
+
+           a.  CD\XXXXXXX <---- whatever you decide to name the
+               sub directory
+
+           b.  BBN %1
+
+           C.  cd.. (back to the WWIV directory!)
+
+           d.  Ctrl-Z (don't actually type words but just CTRL-Z!)
+
+       2.  This will save the batch file.
+
+     Now make a chain using Chain edit which will call BARBAR.BAT by
+     typing the following chain c:\wwiv\BARBAR %1.  When BARBAR.bat is called
+     it will then change directories to the one you out the adventure in
+     and call it, passing the parms.
+
+
+     Telegard users and others will have to figure out how to do it
+     themselves, as I am not experienced with those systems....
+
+                                    Page -1-
+
+     Initializing the Game:
+
+        This will make sure that the game has not been tampered with or
+        a previous user's locations aren't saved.  Type START in DOS.
+
+        This will refresh the location and table data files.
+
+     Chain Requirements:
+
+        This game uses the default for DOS interrupts, which I believe at
+        the present moment is yes.  You must use Shrink.  You config.sys
+        file must have the string DEVICE = ANSI.SYS in it.  ANSI is a
+        requirement for this game!!!!!!  People who can't support ANSI
+        will have grave misgivings about the game, as it will shoot
+        garbage all over the screen.  It is recommended that 300 baud
+        not be allowed to play for obvious reasons....
+
+     Boards Over 750 users!
+
+     If your board has more than user number 750 please do the following:
+        1)  Donate at least $5.00 to the address below and tell me how
+            many users you do have and I will fix the data files to be
+            much bigger.  Send a Xerox copy of the endorsed/cancelled
+            check to me.
+
+        2)  Make sure that users who's user number is over 750 cannot
+            play the game....
+
+        The data files are 750 records and if use 751 comes along....
+        unknown amounts of damage can be done....
+
+     Source Code:
+         The Source Code is currently out there and can be found on several
+         local BBS's....  Our fixed up version is NOT flawless and we
+         are NOT responsible for ANY bugs that it contains or causes!
+
+         This game was downloaded from a board and was compiled and
+         did not work....  Many bugs, swear words, and just plain
+         inconsistencies caused many problems.  Reaver and yours
+         truly have taken this older version of Foodfite and
+         reworked it....
+
+
+                                    Page -2-
+         Knowledge of Turbo Pascal is a requirement also for the source
+         code, it comes with very little commentation but it should be
+         fairly easy to follow.....
+
+     Notes on Files:
+
+        If a user is deleted off your board or decides never to call
+        again, or just doesn't want to play do NOT delete the character
+        buy conventional ways.... This could cause File Not Found and
+        Run Time Errors....
+
+
+                                    Page -3-
+     Bugs and etc..
+
+
+     If you find a bug in the game (and I know there still are some,
+     nobody's perfect) please write me at the following address with a
+     good description of where, how, and etc this thing happened.  I will
+     try to make a fix on it ASAP.
+
+     If you do find a bug and it is relatively minor, try to avoid it, as
+     I will only send out a new version if it is a major bug...
+
+     My address is:  Eddie Gaul
+                     2917 Via Rivera
+                     Palos Verdes, CA  90274.
+                     USA.
+
+     Donations should go to the following address:
+
+                     COMMUNITY HELPLINE (make checks out to this!)
+                     PO BOX 2053
+                     Palos Verdes, CA 90274
+                     USA.
+
+     Donations are not a requirement, but if people like the game they should
+     send money to this address to prevent problems with teenagers..
+
+     Donations should go there likewise (for more information on
+     donations PLEASE read the RULES.DOC).
+
+     Until the sequal have fun and be sure that players read the
+     RULES.DOC.  By making them a Gfile or whatever is neccessary!
+
+
+     P.F.  4-20-1990
+                               Page -4-
+
