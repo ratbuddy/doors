@@ -1,0 +1,1076 @@
+program create_dungeon_room3;
+const MAXROOM = 45;
+type combat_init= array [1..4] of byte;
+type helper=string[75];
+type
+ dun_room = record
+  dxmap:byte;
+  dymap:byte;
+  dlocx:byte;
+  dlocy:byte;
+  whatkind:combat_init;
+  howmany:combat_init;
+  toggler: byte;
+  special: byte;
+  food   : byte;
+  scroll : boolean;
+  scrollsay : helper;
+  amount:integer;
+  itemnum:byte;
+  quant:byte;
+ end;
+
+var dung_arr : array [1..MAXROOM] of dun_room;
+    dung_file : file of dun_room;
+    count,count2 : integer;
+
+begin
+{TOGGLER 47 is for RED RUBY!!!!!!! NOTE THIS NOTE THIS!!!!}
+{TOGGLER 48 is for SOMA Killing IMPORTANT!}
+{TOGGLER 85 is start 81-84 not used just in case....}
+{special 9 is start point}
+
+with dung_arr[1] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=20;
+  dlocy:=08;
+  whatkind[1]:=19;
+  whatkind[2]:=29;
+  whatkind[3]:=33;
+  whatkind[4]:=32;
+  howmany[1]:=07;
+  howmany[2]:=10;
+  howmany[3]:=08;
+  howmany[4]:=01;
+  toggler:= 85;
+  special:= 0;
+  food   := 0;
+  scroll := false;
+  scrollsay:='Manning this guard tower is a group of nasty warriors!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[2] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=18;
+  dlocy:=09;
+  whatkind[1]:=19;
+  whatkind[2]:=29;
+  whatkind[3]:=33;
+  whatkind[4]:=32;
+  howmany[1]:=07;
+  howmany[2]:=10;
+  howmany[3]:=08;
+  howmany[4]:=01;
+  toggler:= 85;
+  special:= 0;
+  food   := 0;
+  scroll := false;
+  scrollsay:='Manning this guard tower is a group of nasty warriors!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[3] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=50;
+  dlocy:=08;
+  whatkind[1]:=19;
+  whatkind[2]:=29;
+  whatkind[3]:=25;
+  whatkind[4]:=50;
+  howmany[1]:=06;
+  howmany[2]:=09;
+  howmany[3]:=02;
+  howmany[4]:=00;
+  toggler:= 86;
+  special:= 0;
+  food   := 0;
+  scroll := false;
+  scrollsay:='A man in Black Robes yells, "Get the Intruders!"';
+  amount:=0000;
+  itemnum:=03;
+  quant:=04;
+end;
+
+with dung_arr[4] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=52;
+  dlocy:=09;
+  whatkind[1]:=19;
+  whatkind[2]:=29;
+  whatkind[3]:=25;
+  whatkind[4]:=50;
+  howmany[1]:=06;
+  howmany[2]:=09;
+  howmany[3]:=02;
+  howmany[4]:=00;
+  toggler:= 86;
+  special:= 0;
+  food   := 0;
+  scroll := false;
+  scrollsay:='A man in Black Robes yells, "Get the Intruders!"';
+  amount:=0000;
+  itemnum:=03;
+  quant:=04;
+end;
+
+with dung_arr[5] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=22;
+  dlocy:=13;
+  whatkind[1]:=19;
+  whatkind[2]:=31;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=03;
+  howmany[2]:=03;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 87;
+  special:= 0;
+  food   := 99;
+  scroll := false;
+  scrollsay:='Taking inventory of some stock are a trio of Ogres';
+  amount:=0000;
+  itemnum:=15;
+  quant:=02;
+end;
+
+with dung_arr[6] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=49;
+  dlocy:=13;
+  whatkind[1]:=33;
+  whatkind[2]:=32;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=07;
+  howmany[2]:=02;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 88;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Restocking themselves with some arrows are some archers!';
+  amount:=0000;
+  itemnum:=06;
+  quant:=05;
+end;
+
+with dung_arr[7] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=18;
+  dlocy:=17;
+  whatkind[1]:=54;
+  whatkind[2]:=56;
+  whatkind[3]:=59;
+  whatkind[4]:=56;
+  howmany[1]:=04;
+  howmany[2]:=06;
+  howmany[3]:=03;
+  howmany[4]:=06;
+  toggler:= 89;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Taking refuge here are a bunch of criminals....';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[8] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=20;
+  dlocy:=18;
+  whatkind[1]:=54;
+  whatkind[2]:=56;
+  whatkind[3]:=59;
+  whatkind[4]:=56;
+  howmany[1]:=04;
+  howmany[2]:=06;
+  howmany[3]:=03;
+  howmany[4]:=06;
+  toggler:= 89;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Taking refuge here are a bunch of criminals....';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[9] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=51;
+  dlocy:=17;
+  whatkind[1]:=55;
+  whatkind[2]:=55;
+  whatkind[3]:=55;
+  whatkind[4]:=55;
+  howmany[1]:=06;
+  howmany[2]:=07;
+  howmany[3]:=03;
+  howmany[4]:=06;
+  toggler:= 90;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of spiders have taken over this area....';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[10] do begin
+  dxmap:=1;
+  dymap:=1;
+  dlocx:=50;
+  dlocy:=18;
+  whatkind[1]:=55;
+  whatkind[2]:=55;
+  whatkind[3]:=55;
+  whatkind[4]:=55;
+  howmany[1]:=06;
+  howmany[2]:=07;
+  howmany[3]:=03;
+  howmany[4]:=06;
+  toggler:= 90;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of spiders have taken over this area....';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[11] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=51;
+  dlocy:=07;
+  whatkind[1]:=29;
+  whatkind[2]:=33;
+  whatkind[3]:=25;
+  whatkind[4]:=32;
+  howmany[1]:=09;
+  howmany[2]:=08;
+  howmany[3]:=02;
+  howmany[4]:=02;
+  toggler:= 91;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Another Group of Guards prevent your passage!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[12] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=53;
+  dlocy:=08;
+  whatkind[1]:=29;
+  whatkind[2]:=33;
+  whatkind[3]:=25;
+  whatkind[4]:=32;
+  howmany[1]:=09;
+  howmany[2]:=08;
+  howmany[3]:=02;
+  howmany[4]:=02;
+  toggler:= 91;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Another Group of Guards prevent your passage!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[13] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=46;
+  dlocy:=09;
+  whatkind[1]:=29;
+  whatkind[2]:=33;
+  whatkind[3]:=25;
+  whatkind[4]:=32;
+  howmany[1]:=09;
+  howmany[2]:=08;
+  howmany[3]:=02;
+  howmany[4]:=02;
+  toggler:= 91;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Another Group of Guards prevent your passage!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[14] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=50;
+  dlocy:=11;
+  whatkind[1]:=29;
+  whatkind[2]:=33;
+  whatkind[3]:=25;
+  whatkind[4]:=32;
+  howmany[1]:=09;
+  howmany[2]:=08;
+  howmany[3]:=02;
+  howmany[4]:=02;
+  toggler:= 91;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Another Group of Guards prevent your passage!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[15] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=24;
+  dlocy:=11;
+  whatkind[1]:=18;
+  whatkind[2]:=29;
+  whatkind[3]:=08;
+  whatkind[4]:=10;
+  howmany[1]:=03;
+  howmany[2]:=09;
+  howmany[3]:=05;
+  howmany[4]:=04;
+  toggler:= 92;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Magic Users practice their spells on some dogs...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[16] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=20;
+  dlocy:=09;
+  whatkind[1]:=18;
+  whatkind[2]:=29;
+  whatkind[3]:=08;
+  whatkind[4]:=10;
+  howmany[1]:=03;
+  howmany[2]:=09;
+  howmany[3]:=05;
+  howmany[4]:=04;
+  toggler:= 92;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Magic Users practice their spells on some dogs...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[17] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=20;
+  dlocy:=14;
+  whatkind[1]:=18;
+  whatkind[2]:=29;
+  whatkind[3]:=08;
+  whatkind[4]:=10;
+  howmany[1]:=03;
+  howmany[2]:=09;
+  howmany[3]:=05;
+  howmany[4]:=04;
+  toggler:= 92;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Magic Users practice their spells on some dogs...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[18] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=50;
+  dlocy:=15;
+  whatkind[1]:=19;
+  whatkind[2]:=10;
+  whatkind[3]:=09;
+  whatkind[4]:=09;
+  howmany[1]:=04;
+  howmany[2]:=03;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 93;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Monsters keep guard over this area...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[19] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=46;
+  dlocy:=17;
+  whatkind[1]:=19;
+  whatkind[2]:=10;
+  whatkind[3]:=09;
+  whatkind[4]:=09;
+  howmany[1]:=04;
+  howmany[2]:=03;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 93;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Monsters keep guard over this area...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[20] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=53;
+  dlocy:=18;
+  whatkind[1]:=19;
+  whatkind[2]:=10;
+  whatkind[3]:=09;
+  whatkind[4]:=09;
+  howmany[1]:=04;
+  howmany[2]:=03;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 93;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Monsters keep guard over this area...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[21] do begin
+  dxmap:=1;
+  dymap:=3;
+  dlocx:=52;
+  dlocy:=19;
+  whatkind[1]:=19;
+  whatkind[2]:=10;
+  whatkind[3]:=09;
+  whatkind[4]:=09;
+  howmany[1]:=04;
+  howmany[2]:=03;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 93;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='A group of Monsters keep guard over this area...';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[22] do begin
+  dxmap:=1;
+  dymap:=5;
+  dlocx:=21;
+  dlocy:=08;
+  whatkind[1]:=54;
+  whatkind[2]:=56;
+  whatkind[3]:=09;
+  whatkind[4]:=09;
+  howmany[1]:=05;
+  howmany[2]:=05;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 94;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Several haggard men sit around polishing their weapons!';
+  amount:=0150;
+  itemnum:=39;
+  quant:=08;
+end;
+
+with dung_arr[23] do begin
+  dxmap:=1;
+  dymap:=5;
+  dlocx:=19;
+  dlocy:=09;
+  whatkind[1]:=54;
+  whatkind[2]:=56;
+  whatkind[3]:=09;
+  whatkind[4]:=09;
+  howmany[1]:=05;
+  howmany[2]:=05;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 94;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Several haggard men sit around polishing their weapons!';
+  amount:=0150;
+  itemnum:=39;
+  quant:=08;
+end;
+
+with dung_arr[24] do begin
+  dxmap:=1;
+  dymap:=5;
+  dlocx:=52;
+  dlocy:=17;
+  whatkind[1]:=59;
+  whatkind[2]:=57;
+  whatkind[3]:=54;
+  whatkind[4]:=24;
+  howmany[1]:=03;
+  howmany[2]:=04;
+  howmany[3]:=05;
+  howmany[4]:=01;
+  toggler:= 95;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Several new recruits receive instructions from a leader!';
+  amount:=1250;
+  itemnum:=44;
+  quant:=02;
+end;
+
+with dung_arr[25] do begin
+  dxmap:=1;
+  dymap:=5;
+  dlocx:=50;
+  dlocy:=18;
+  whatkind[1]:=59;
+  whatkind[2]:=57;
+  whatkind[3]:=54;
+  whatkind[4]:=24;
+  howmany[1]:=03;
+  howmany[2]:=04;
+  howmany[3]:=05;
+  howmany[4]:=01;
+  toggler:= 95;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Several new recruits receive instructions from a leader!';
+  amount:=1250;
+  itemnum:=44;
+  quant:=02;
+end;
+
+with dung_arr[26] do begin
+  dxmap:=1;
+  dymap:=5;
+  dlocx:=52;
+  dlocy:=09;
+  whatkind[1]:=59;
+  whatkind[2]:=25;
+  whatkind[3]:=24;
+  whatkind[4]:=39;
+  howmany[1]:=02;
+  howmany[2]:=04;
+  howmany[3]:=04;
+  howmany[4]:=10;
+  toggler:= 96;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Several men sort out magic components in this wizard''s wherehouse!';
+  amount:=0000;
+  itemnum:=21;
+  quant:=05;
+end;
+
+with dung_arr[27] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=20;
+  dlocy:=08;
+  whatkind[1]:=16;
+  whatkind[2]:=16;
+  whatkind[3]:=16;
+  whatkind[4]:=50;
+  howmany[1]:=03;
+  howmany[2]:=02;
+  howmany[3]:=05;
+  howmany[4]:=00;
+  toggler:= 97;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Trolls guard this room!';
+  amount:=0000;
+  itemnum:=18;
+  quant:=02;
+end;
+
+with dung_arr[28] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=19;
+  dlocy:=09;
+  whatkind[1]:=16;
+  whatkind[2]:=16;
+  whatkind[3]:=16;
+  whatkind[4]:=50;
+  howmany[1]:=03;
+  howmany[2]:=02;
+  howmany[3]:=05;
+  howmany[4]:=00;
+  toggler:= 97;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Trolls guard this room!';
+  amount:=0000;
+  itemnum:=18;
+  quant:=02;
+end;
+
+with dung_arr[29] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=50;
+  dlocy:=08;
+  whatkind[1]:=19;
+  whatkind[2]:=19;
+  whatkind[3]:=19;
+  whatkind[4]:=19;
+  howmany[1]:=10;
+  howmany[2]:=10;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 98;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Orges guard this room!';
+  amount:=5250;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[30] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=52;
+  dlocy:=09;
+  whatkind[1]:=19;
+  whatkind[2]:=19;
+  whatkind[3]:=19;
+  whatkind[4]:=19;
+  howmany[1]:=10;
+  howmany[2]:=10;
+  howmany[3]:=08;
+  howmany[4]:=07;
+  toggler:= 98;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Ogres guard this room!';
+  amount:=5250;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[31] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=19;
+  dlocy:=17;
+  whatkind[1]:=33;
+  whatkind[2]:=33;
+  whatkind[3]:=33;
+  whatkind[4]:=32;
+  howmany[1]:=10;
+  howmany[2]:=10;
+  howmany[3]:=09;
+  howmany[4]:=04;
+  toggler:= 99;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='The Tower Archers are ready to attack you!';
+  amount:=0000;
+  itemnum:=08;
+  quant:=05;
+end;
+
+with dung_arr[32] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=20;
+  dlocy:=18;
+  whatkind[1]:=33;
+  whatkind[2]:=33;
+  whatkind[3]:=33;
+  whatkind[4]:=32;
+  howmany[1]:=10;
+  howmany[2]:=10;
+  howmany[3]:=09;
+  howmany[4]:=04;
+  toggler:= 99;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='The Tower Archers are ready to attack you!';
+  amount:=0000;
+  itemnum:=08;
+  quant:=05;
+end;
+
+with dung_arr[33] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=51;
+  dlocy:=17;
+  whatkind[1]:=22;
+  whatkind[2]:=23;
+  whatkind[3]:=22;
+  whatkind[4]:=23;
+  howmany[1]:=07;
+  howmany[2]:=05;
+  howmany[3]:=07;
+  howmany[4]:=05;
+  toggler:= 100;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='The Keeper''s Guards!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[34] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=50;
+  dlocy:=18;
+  whatkind[1]:=22;
+  whatkind[2]:=23;
+  whatkind[3]:=22;
+  whatkind[4]:=23;
+  howmany[1]:=07;
+  howmany[2]:=05;
+  howmany[3]:=07;
+  howmany[4]:=05;
+  toggler:= 100;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='The Keeper''s Guards!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[35] do begin
+  dxmap:=1;
+  dymap:=7;
+  dlocx:=33;
+  dlocy:=13;
+  whatkind[1]:=41;
+  whatkind[2]:=43;
+  whatkind[3]:=43;
+  whatkind[4]:=54;
+  howmany[1]:=01;
+  howmany[2]:=10;
+  howmany[3]:=10;
+  howmany[4]:=03;
+  toggler:= 101;
+  special:= 9;    {Final Encounter}
+  food   := 00;
+  scroll := true;
+  scrollsay:='The Finale!';
+  amount:=9999;
+  itemnum:=03;
+  quant:=07;
+end;
+
+with dung_arr[36] do begin
+  dxmap:=3;
+  dymap:=3;
+  dlocx:=18;
+  dlocy:=14;
+  whatkind[1]:=21;
+  whatkind[2]:=50;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=02;
+  howmany[2]:=0;
+  howmany[3]:=0;
+  howmany[4]:=0;
+  toggler:= 102;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Inside a small antechamber are the occupants of this cave!';
+  amount:=620;
+  itemnum:=43;
+  quant:=07;
+end;
+
+with dung_arr[37] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=29;
+  dlocy:=16;
+  whatkind[1]:=28;
+  whatkind[2]:=31;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=06;
+  howmany[2]:=01;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 103;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='This chamber holds several animals, snarling at your presence!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[38] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=35;
+  dlocy:=18;
+  whatkind[1]:=28;
+  whatkind[2]:=31;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=06;
+  howmany[2]:=01;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 103;
+  special:= 0;
+  food   := 00;
+  scroll := false;
+  scrollsay:='This chamber holds several animals, snarling at your presence!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[39] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=28;
+  dlocy:=13;
+  whatkind[1]:=07;
+  whatkind[2]:=14;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=03;
+  howmany[2]:=01;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 104;
+  special:= 0;
+  food   := 10;
+  scroll := false;
+  scrollsay:='A lone man serves up some grub here with the foul rats!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[40] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=35;
+  dlocy:=09;
+  whatkind[1]:=07;
+  whatkind[2]:=14;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=03;
+  howmany[2]:=01;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 104;
+  special:= 0;
+  food   := 10;
+  scroll := false;
+  scrollsay:='A lone man serves up some grub here with the foul rats!';
+  amount:=0000;
+  itemnum:=00;
+  quant:=00;
+end;
+
+with dung_arr[41] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=42;
+  dlocy:=09;
+  whatkind[1]:=39;
+  whatkind[2]:=60;
+  whatkind[3]:=08;
+  whatkind[4]:=50;
+  howmany[1]:=06;
+  howmany[2]:=01;
+  howmany[3]:=03;
+  howmany[4]:=00;
+  toggler:= 105;
+  special:= 10;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Mixing potions and working on various magic are.....';
+  amount:=0000;
+  itemnum:=36;
+  quant:=10;
+end;
+
+with dung_arr[42] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=48;
+  dlocy:=13;
+  whatkind[1]:=39;
+  whatkind[2]:=60;
+  whatkind[3]:=08;
+  whatkind[4]:=50;
+  howmany[1]:=06;
+  howmany[2]:=01;
+  howmany[3]:=03;
+  howmany[4]:=00;
+  toggler:= 105;
+  special:= 10;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Mixing potions and working on various magic are.....';
+  amount:=0000;
+  itemnum:=36;
+  quant:=10;
+end;
+
+with dung_arr[43] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=44;
+  dlocy:=21;
+  whatkind[1]:=60;
+  whatkind[2]:=59;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=02;
+  howmany[2]:=01;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 106;
+  special:= 00;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Resting from today''s evil deads is the owner of this hut!';
+  amount:=0000;
+  itemnum:=25;
+  quant:=00;
+end;
+
+with dung_arr[44] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=50;
+  dlocy:=16;
+  whatkind[1]:=60;
+  whatkind[2]:=59;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=02;
+  howmany[2]:=01;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 106;
+  special:= 00;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Resting from today''s evil deads is the owner of this hut!';
+  amount:=0000;
+  itemnum:=25;
+  quant:=00;
+end;
+
+with dung_arr[45] do begin
+  dxmap:=4;
+  dymap:=4;
+  dlocx:=45;
+  dlocy:=17;
+  whatkind[1]:=23;
+  whatkind[2]:=50;
+  whatkind[3]:=50;
+  whatkind[4]:=50;
+  howmany[1]:=02;
+  howmany[2]:=00;
+  howmany[3]:=00;
+  howmany[4]:=00;
+  toggler:= 107;
+  special:= 00;
+  food   := 00;
+  scroll := false;
+  scrollsay:='Guarding some belongings is a Stone Golem in the closet!';
+  amount:=2353;
+  itemnum:=08;
+  quant:=03;
+end;
+
+
+assign(dung_file,'DUNRM3.PIT');
+rewrite(dung_file);
+for count:=1 to MAXROOM do
+  write(dung_file,dung_arr[count]);
+close(dung_file);
+end.
+
+
