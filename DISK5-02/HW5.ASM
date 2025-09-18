@@ -1,0 +1,169 @@
+COMMENT   *
+          Well, this program will print out the answer to a postscipt
+          equation consisting of +'s and -'s.  It will also tell
+          the user if his/her program does NOT conform to a
+          logical postscript function.
+          *
+EXTRN  PUTDEC:FAR
+s_stack segment stack
+        db 256 dup (0)
+s_stack ends
+
+     LF EQU 10
+     CR EQU 13
+DOSCALL EQU 21H
+
+_DATA SEGMENT
+     NEWLIN DB LF,CR,'$'
+     HEADER DB LF,LF,CR,'Postfix Evulation by Eddie Gaul$'
+     PROMPT DB LF,CR,'PLEASE TYPE A POSTFIX EQUATION:  $'
+     ANSWER DB LF,CR,'The Answer is:  $'
+     BADCHAR DB LF,CR,'Invalid Character, Please Try Again$'
+     MANYNUM DB LF,CR,'Not Enough Operators, Too many digits$'
+     MANYOPT DB LF,CR,'Too many Operators, too few digits!$'
+     INPUTBF DB 80
+     COUNT   DB ?
+     INPUTST DB 81 DUP (?)
+     NUMBER  DW 0
+     MAGICNUM DW 654
+_data ends
+
+_text segment
+   assume cs:_text, ds:_data, ss:S_Stack
+   start:
+   MOV AX,_DATA
+   MOV DS,AX
+   MOV AH,09
+   LEA DX,HEADER
+   INT DOSCALL
+   PUSH MAGICNUM
+   MOV BP,SP                     ;SAVE STACK POINTER
+RESTART:
+   LEA DX,NEWLIN
+   mov ah,09
+   INT DOSCALL
+   MOV SP,BP                     ; RESTORE STACK POINTER
+   LEA DX,PROMPT
+   INT DOSCALL
+   LEA DX,NEWLIN
+   INT DOSCALL
+
+   MOV AH,0AH
+   MOV DX,OFFSET INPUTBF           ; GET INPUT
+   INT 21H
+   CMP COUNT,1
+   JB  QUIT
+   SUB CX,CX
+   MOV SI,OFFSET INPUTST          ; SET SI TO FRONT OF INPUT
+   JMP GO_AHEAD
+QUIT: MOV AH,4CH
+      INT DOSCALL
+GO_AHEAD:
+           CMP BYTE PTR [SI],32
+           JE  COME_BACK
+           CMP BYTE PTR [SI],'+'
+           JE  ADD_AN_ADD
+           CMP BYTE PTR [SI],'-'
+           JE  NEGATIVES
+           CMP BYTE PTR [SI],48
+           JB  BAD_CHAR
+           CMP BYTE PTR [SI],57
+           JA  BAD_CHAR
+           CALL NUMBERS
+           PUSH DX                     ; SAVES RESULTS FROM NUMBERS
+COME_BACK:
+      INC SI
+      INC CL
+      CMP CL,COUNT
+      JS GO_AHEAD
+POP AX                  ; FINAL result
+POP DX
+PUSH DX
+CMP DX,MAGICNUM
+JNZ TOO_MANY_NUMBERS
+MOV BH,0
+CALL PUTDEC
+JMP RESTART             ; JUMP BACK TO START
+
+BAD_CHAR:
+   LEA DX,BADCHAR
+   MOV AH,09
+   INT DOSCALL
+   JMP RESTART
+ADD_AN_ADD:             ; DO WORK
+   POP AX
+   CMP AX,MAGICNUM
+   JZ  TOO_MANY_SYMBOLS
+   POP DX
+   CMP DX,MAGICNUM
+   JZ  TOO_MANY_SYMBOLS
+   ADD AX,DX            ; RESULT IN AX
+   PUSH AX              ; SAVES WORK, NO CHECK WHATSOEVER!
+   JMP COME_BACK
+
+NEGATIVES:
+   INC SI               ; CHECK NEXT CHAR FOR A NUMBER
+   INC CL               ; INCREASE COUNTER FOR STRING LENGTH
+   CMP BYTE PTR [SI],48 ; IF <0 THEN NOT NEG
+   JB NOT_NEG
+   CMP BYTE PTR [SI],57 ; IF >9 THEN NOT NEG
+   JA NOT_NEG
+   CALL NUMBERS         ; CALL NUMBERS
+   NEG DX               ; NEGATE IT
+   PUSH DX              ; SAVE RESULTANT
+   JMP COME_BACK        ; GO BACK
+NOT_NEG:
+   POP DX               ; IF IT ISN'T NEG THAN
+   CMP DX,MAGICNUM
+   JZ  TOO_MANY_SYMBOLS
+   POP AX               ; POP DX AND AX
+   CMP AX,MAGICNUM
+   JZ TOO_MANY_SYMBOLS
+   SUB AX,DX            ; AND SUBTRACT THEM
+   PUSH AX              ; THEN PUT RESULTANT ON STACK
+   JMP COME_BACK        ; GO BACK FOR MORE WORK
+TOO_MANY_SYMBOLS:
+   LEA DX,MANYOPT
+   MOV AH,09
+   INT DOSCALL
+   PUSH MAGICNUM
+   JMP RESTART
+TOO_MANY_NUMBERS:
+   LEA DX,MANYNUM
+   MOV AH,09
+   INT DOSCALL
+   PUSH MAGICNUM
+   JMP RESTART
+NUMBERS PROC NEAR
+  MOV AH,09
+  LEA DX,NEWLIN
+  INT DOSCALL                   ; PRINT SOME CAR. RA'S
+  SUB DX,DX                     ; DX=0
+  SUB BX,BX                     ; BX=0
+  LOOPTOP:
+   MOV BL,BYTE PTR [SI]
+   SUB BL,48                    ; GET INT VALUE
+   ADD DX,BX                    ; ADD IT TO WHATEVER MAY BE IN DX
+   INC SI                       ; INC SI
+   INC CL                       ; IN COUNTER SO ITS COOL WHEN WE GET BACK
+   CMP BYTE PTR [SI],48         ; CHECK TO SEE IF LOWER THAN '0'
+   JB LOOPEND
+   CMP BYTE PTR [SI],57         ; CHECK TO SEE IF HIGHER THAN A '9'
+   JA LOOPEND
+   MOV AX,DX                    ; STORE DX INTO AX
+   MOV BX,10                    ;
+   IMUL BX                      ; INTEGER MULTIPLY AX BY 10
+   MOV DX,AX                    ; PUT NEW VALUE INTO DX
+  JMP LOOPTOP
+LOOPEND:
+DEC CL                          ;  SET SI AND CL BACK ONE
+DEC SI                          ; CUZ WE WANT TO ACCOUNT FOR IT WHEN WE GET
+RET
+NUMBERS ENDP
+
+_TEXT ENDS
+END START
+
+
+
+
