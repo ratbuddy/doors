@@ -1,0 +1,71 @@
+
+
+     City Commands (in general)
+
+
+(1-3) Change Active Player:  This will change the active player.  By
+  selection the appropriate number you can choose a player to be
+  in charge of the party and all of its actions.  Only a person
+  who not dead can be active.
+
+(B)oating:  If a town is a port you can see where it sails.  You will
+be given a listing of where the town captain travels to.  Depending upon
+the length of the trip, a variable amount of moves will be added
+to you total moves.  Boating is the ONLY way to travel across long
+distances of water.
+
+(C)onverse with Townfolk -- This enables you to get to the townfolk
+  (see CONVER.DOC) for details.
+
+(D)rink Potion -- You can drink a potion here.  See Potion.doc for
+  potion details.
+
+(E)xchange/Trade -- Change items between players.  Items that
+can be traded or exchanges are any weapon, armor, potions, and food.
+
+(F)ast Mode -- Fast Mode, allows you to significantly speed up the
+outdoor movement scrolling.  When you choose for fast mode, the color
+for outdoor scrolling will be gone, it will appear in black and white.
+Not viewing the Wilderness/Dungeon Helpframe is the one with the boxes
+and available commands.  Be sure to hit '?' or reselect 'F'ast Mode
+to return the Boxes and available commands.
+
+(G)eneral Store -- enter the general store, see General.Doc
+
+(L)eave Town! -- Be sure that you have weapons because there are evil
+ones out there.  Most of the action in the game takes place outside.
+You can reenter the city of course from outside.
+
+(M)agic Spell, Cast -- Cast a Magic Spell.  See Magic.Doc for
+spell details.
+
+(Q)uit and Save -- Allows you to Quit and Save your party.  You will be
+returned back to the BBS.  Good and bad spells affects are removed
+when quitting.  Although poisoning and dead conditions are not.
+
+(S)ave Character -- Quite wise to do this often.  Saves your character,
+spell effects are not turned off by saving.
+
+(U)tilities, Character -- This is a place where you can exchange characters
+for new ones.  Consult NewChar.Doc for details.
+
+(V)iew Party : Views the active player in all of his glory.
+
+(Y)our Guardian Angel:  A brief one page description and hints on what
+the creators of the game (namely myself) intended you to do at this point
+of the game.  It is all true.  Since there isn't a map to the game
+we opted to use this way to inform people generally who was important
+and where to go.  This should be the first and last thing you do
+in each city that you enter.
+
+(Z) -- Destroy Party :  This has several options:
+    (Q)uit without Saving:  Abort back the BBS with no save.
+
+    (D)estroy party.  When you destroy your party it will erase
+    the save file and remove you from the game.  If you do not like
+    the game it is wise that you save the sysop some Hard drive
+    space and destroy your party.
+
+
+
+

@@ -1,0 +1,140 @@
+
+
+
+     Pit Fiend's Adventure Volume 3 - Installation Procedure
+
+     To install Pit Fiend Volume 3 you must note the following:
+
+        1)  This game requires that the caller have ANSI.  Ansi
+            is therefore required.  Be sure also that you have
+            the following command in your CONFIG.SYS file:
+                DEVICE = ANSI.SYS (ANSI.sys may vary from DOS to DOS)
+            After adding this line, reboot the maching.  Type
+            the following : TYPE TITLER2.ANS.  If the title screen
+            comes up in color and shows the credits then your machine
+            supports ANSI.  If it doesn't then you cannot play it
+            locally.  Consult your DOS manual for details.
+
+        2)  This game is NOT complete.  The game comes with roughly
+            60-80% of the quest available.  You must register
+            it to receive the complete game.  You are welcome to run
+            the unregistered version for as long as you like, but
+            certain limitations will occur for long time players
+            (level limits, dungeon limits, etc).
+
+        3)  It is important that players no that they MUST read
+            the documentation, called PIT3DOCS.ZIP.  Please
+            make G-Files or put in a download section.
+
+        4)  It is HIGHLY NOT recommended that 300 baud users players
+            play this game.  Even 1200 may need to be curtailed.
+
+        5)  This game is written for WWIV 4.XX boards ONLY.  Attempting
+            to run the game on other systems than WWIV 4.XX is
+            futile.  Contact me:
+
+               Eddie Gaul
+               2917 Via Rivera
+               Palos Verdes, CA 90274
+
+            If you know the following:
+
+                  How your BBS software checks for hangups (WWIV
+                  automattically does this in chains).
+                  How to pass usernumbers, that's all this game needs.
+
+            If you don't know how these things work then don't bug me.
+            Try to include a source code for an onliner, that would also
+            help.
+
+        6)  The sysop should also note that the game doesn't get
+            very much bigger on its own, meaning that you once
+            you install it, it is installed and doesn't use too much
+            more disk space.  Saved Characters though roughly take
+            up 1K of space EACH.  Ask your players to delete themselves
+            from the game if they decide to quit permantly.  Erasing
+            [USERNUMBER].SAV files can be down manually through DOS
+            without problems.  Tampering with files is NOT recommended.
+
+        7)  To install the game you must create a batch file, create
+            it by typing the following at a DOS prompt:
+
+               C:\WWIV>copy con PIT3ADV.BAT
+                    cd pit3
+                    pit3adv %1
+                    cd.. (Ctrl - Z)
+               C:\WWIV>
+
+            The pit3 subdirectory can be anywhere on your harddrive,
+            just make sure that your batch file changes to the
+            appropriate drive and sub directory.
+            Unzip all of the distribution ZIP file into this subdirectory.
+            Make sure ALL files are there.
+            Put the Batch file, PIT3ADV.BAT in your WWIV directory
+            (wherever that may be).
+            In your CHAINEDIT thing, just put for a file name:
+                C:\WWIV\PIT3ADV %1
+            Of course C:\wwiv may be different etc.
+
+        8)  The Shrink method is NOT required to run this game.  Using
+            the shrink method will only delay the return time and starting
+            time of playing.
+
+        9)  Utilities for viewing maps, editing saved characters can
+            be gotten FREE with a registered game.  They are NOT
+            included in this package.
+
+       10)  DO NOT, I repeat, DO NOT!!! assume that anything from
+            PF1 or PF2 will work in this game.  In other words
+            do not copy characters from either of these game, or
+            ANY files to this game from previous games.  It will
+            basically %^%&#@^$&% up the system with I/O errors
+            and shoot garbage all over the place and probably lock
+            up your system and god knows what else.  SO don't do it.
+
+       11)  Systems with registered copies of PF2 will find that
+            VIEW.COM (or VIEW.EXE) will WORK with PF3 maps.  Use
+            them freely and thanks once again for registering the game.
+
+       12)  Bugs, Problems, and SNAFU's.  If any these occur, or you
+            have problems contact me.  I am more than glad to help
+            out, especially for folks who have problems setting
+            up the game.  The most common problem is not putting
+            the lame %1 thing in there, so be sure you have that.
+            Optionally, you can try, having Chainedit just simply
+            call the game, but again I don't know if this works.
+            Again in case of a problem, questions, comments (I like
+            to receive mail) etc, please do not hesitate to
+            write me at Eddie Gaul
+                        2917 Via Rivera
+                        Palos Verdes, CA  90274.
+
+            If you are local (213) board or are willing to call long
+            distance there is a chance of being a BETA board for
+            future releases.  Again, this is chosen by closeness
+            (locality) and eagerness and success of my games on
+            your BBS.
+
+       13)  To register this game or others be sure to check out
+            REGISTER.FRM for ordering info.  Special deals and stuff
+            on the older stuff.
+
+       14)  Optionally I can be reached on the WWIV Net at all of
+            these area code (213) boards:
+              Usernumber 19 at Eyes of the World (WWIV NET)
+              Onliner Game Net WWIV NET, usually post on it.
+              Altered Dimensions. (WWIV NET)
+              Circus Maximus (WWIV NET)
+              Hz Castle (WWIV NET)
+              Castle Kzin (WWIV NET, usernumber 2)
+
+            Again I thoroughly enjoy hearing from you and is usually
+            the highlight of a usually lame day.
+
+       15)  Good luck and enjoy.
+
+
+
+
+
+

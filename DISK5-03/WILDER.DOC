@@ -1,0 +1,252 @@
+
+  When you exit a city to enter into a dungeon or the wilderness
+  you will be prompted with the following screen:
+
+
+
+           ÖÄÄÄÄÄÄÄÄÄÄÄÄ·              -=  COMMANDS  =-
+           º            º               (!,@,#) Active
+           º            º        (A)utomap         (Q)uit and Save
+           º            º        (C)ast            (S)ave
+           º            º        (E)ncamp          (T)rade Item
+           º            º        (F)ast Mode       (U)se Skill/Potion
+           º            º        (H)unt            (V)iew Party
+           º            º        (I)nspect         (Z) Char Funct.
+           ÓÄÄÄÄÄÄÄÄÄÄÄÄ½
+
+          NAME             HPS     MPS    AC  FOOD   STATUS
+  ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄ¿
+  ³1.                                                         ³ X =      ³
+  ³2.                                                         ³ Y =      ³
+  ³3.                                                         ³ACT=      ³
+  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÙ
+
+
+    Your parties location will be displayed in the upper left hand
+    corner of the screen in the viewport.  All of their stats
+    will then appear in the status screen in the middle of the screen.
+    A Description:
+      Name:  Your character's names.
+      Hps :  Hit Points Maximum / Hit Points Remaining.
+      Mps :  Magic Points Maximum / Magic Points Remaining
+       AC :  Armor Class
+      Food:  Food Remaining, use the Exchange/Trade routine to pass
+             food around.
+    Status:  A Word as to the condition of your character.  Poisoned
+             is also equal to hungry.  Cure Poison will remove
+             the effects of Hungryness, but due to the weakness and
+             dehydration of a character, a cure Poison is required
+             even after the character has been given food.
+         X:  Current X Location of the Character, in terms of the map.
+         Y:  Current Y Location of the character, in terms of the map.
+       ACT:  Current Action the player has used.
+
+
+!@#  : Changes the Active Player, !=1, @=2, #=3.
+
+Use the Arrow Keys on your numeric keypad (be sure that the numlock
+is ON) to direct your party.  Pressing any of the arrow keys
+will move you one space in the desired direction.
+
+(A)utomap : View the Automap on screen.  Automaps are always in effect
+except in cities.  Once you move off of a map your automap is erased
+and forgotten.  Quitting and then returning to the BBS also
+erases any Automaps that you may have.
+
+(C)ast:  A Spell casting character can cast a spell.  Make sure
+         that it applies.  Consult to Magic.Doc for spell
+         details.
+
+(E)ncamp:  Rests the party and heals all wounds.  There is a chance
+           that you may be ambushed while you sleep.  You can only
+           encamp three times per play.  Also all spells, effects
+           of potions, etc are removed.
+
+(F)ast Mode:  Like the City Command, this can significantly increase
+              the display speed.  Use it if you are using 1200-2400 baud.
+
+(H)unt:  Low on food?  Try hunting.  This may waste a lot of moves
+         and generally increase your hunger but if you have a skilled
+         ranger you can usually find some food.  Hunting is always best
+         tried when ON a forest, water, or other livable terrain.
+         Hunting may only be attempted while outdoors.  Hunting is done
+         by the ACTIVE player.
+
+(I)nspect:  Your active player will inspect an object.  Use the
+            direction numbers to indicate where you'd like to look.
+            So if you are even confused as to what an object is
+            supposed to represent use the Inspect command.
+
+(Q)uit and Save:  Quits and Saves the Game.
+
+(S)ave:  This process takes approximately 2 seconds on an Xt.  Saving
+         does not stop the effects of potions, poisoning, or other
+         condition or spell (as it did in Pf1).
+
+(T)rade Item:  Like the Exchange/Trade command in cities.  Exchange
+               armor/weapons/food to other party members.  Members
+               must have enough strength to weild a weapon to
+               allow a transfer.  Players may also transfer potions.
+
+
+(U)se Skill/Potion:  This allows party members to drink a potion,
+                     or use a skill such as Laying of Hands (if a
+                     Knight) or X-Raying.
+
+(V)iew Party:  View the Active Player.
+
+(Z) Char Funct:  This option allows you to quit without saving or
+                 destroy your character.  Destroying your character
+                 permanently clears your record.
+
+Notes on View Port:
+
+    Most things can be decerned as to what they are to represent.
+    Use the Inspect command if you are unclear as to what they
+    are to represent.
+
+    In the outdoors a
+      'C' represents a City.
+
+      Upside down 'U' represents a dungeon entrance.
+
+      A pyramid represents a hill or mountain (unpassable)
+
+      'I' represents an Inn, Automaps and Safe Resting may be
+          purchased here.
+
+      'T' Temple, players may receive healing, curing, and raising
+          of the dead here.  Of course it is at a price.  Temples
+          also sell potions.
+
+          Temples can usually be found near big cities.
+
+      Other places of interest also abound.  Look for clues with
+      discussions with the citizens of the world.  Road signs
+      along the paths also indicate points of interest.  Merely
+      run into the signs (â) to read what they say.
+
+      Dungeons, basically of interest in their are:
+
+         'D': Door, monsters lurk behind them.  Do note that
+              unlike in PF1, you can walk through rooms where
+              possibly treasure can be found or another door.
+              Once a room has been cleaned of monsters, it
+              will never be repopulated.
+
+         'S': Stairs, these are the exits that lead you back outside.
+
+         'W': StairWell, going up, leads to the next level of a dungeon.
+
+         'w': StairWell, going down, leads to lower levels.
+
+         'â': A sign or message scrawled on a wall.  Usually contains
+              clues or hints.
+
+         '$': Treasure, touch these at all costs.  Usually they contain
+              money, but sometimes they contain food, potions, or even
+              magic items.  Treasure is always kept in containers.
+              The tighter the container the more likely the owner put
+              a trap on it and the more valuable it is.
+
+              It is wise to have a Spell Caster cast Open Chest on it.
+              But this requires 60 spell points, an expensive cost.
+              Capable thieves or archers can open the chest and avoid
+              the trap that is usually contained on it.  This is the
+              Pick Option.
+
+              Once a treasure has been found it will be gone and empty
+              forever.  Although it might be there later (if you
+              reenter a dungeon) it will contain nothing.
+
+              (Designer Note:  If you run into an I/O Error when touching
+              a $, try to avoid it, it is a bad data declaration and
+              should be fixed in upcoming upgrades etc.)
+
+              Traps usually consist of poison needles or exploding
+              fireballs which inflict grevious damage upon the party.
+
+
+Other Characters: ('!')
+
+                  Other characters can now be found and bothered.
+                  Like in PF1 the bickering among users continue.
+                  Other Characters can only be found in the
+                  great outdoors or in dungeons.
+
+                  Even though you can encounter each other, your
+                  quests are SEPERATE.  Just because you found
+                  a treasure doesn't mean he can't either.
+                  Pf2 doesn't have this feature (due to its
+                  insidious and very buggy nature (not to mention
+                  complex)).  If your character is deleted or
+                  you destroy it, it will remain in the Locxy.Dat
+                  file.  But if and when another character bumps
+                  into it, it will not I/O error out, but merely
+                  eradicate you off the list.
+
+                  When you encounter another player you have the
+                  following options:
+
+            (A)ttack    (G)ive Message   (I)gnore:
+
+                  (A)ttack:  You immediately begin combat with
+                  the other player's party.  Do note that
+                  the experience rewarded and treasure is NOT
+                  THAT MUCH.  Treasure is in no way reflected
+                  as to what the player has.  If you win
+                  a message stating what you did to the other
+                  player is sent to him along as returning him
+                  to the LAST city he entered. (which can be
+                  a real pisser).  So hide yourself well and
+                  quit in cities.  If you fail to defeat his
+                  party he will still know what you did
+                  because a message will be passed stating that
+                  you tried to attack.
+
+                  (G)ive Message:  A message is sent back
+                  to the other party.  It comes with your
+                  name attached to it and is also reported
+                  to the SYSOP!
+
+                  (I)gnore:  A message stating that you
+                  encountered the opposing party is sent along
+                  with stating that you didn't attack him or her.
+
+
+                  Do note that all of the above actions remove
+                  the "encountered" party off of the Locxy.Dat file
+                  so that they cannot be discovered again until
+                  they play again.  It should be noted that I do
+                  NOT encourage the use of attacking other parties
+                  nor forming alliances.  The job of the player
+                  is to rescue Angel, not beat up on others.  Possible
+                  law enforcement each time you attack is probable
+                  (for murder hehe).
+
+
+Magic Mouths and Wandering Encounters:
+
+           Occasionally along the roads you will encounter farmers,
+           merchants, or other folk on various endevours.  Or
+           you can possibly run into a band of nasty monsters.
+           Also a weird and interesting device known only as a Magic
+           Mouth will sometimes come up.  This is sort of an
+           "automessage" which contains a brief sentence from a player.
+
+           All Magic Mouths statements are reported to the sysop.
+           You can change the statement whenever it appears.
+           Due to the random nature of it, you may encounter it
+           several times before another player has had a chance to
+           change it.
+
+           Attention SYSOPS:  Run CMMOUTH.EXE to reset the magic
+           mouth if you find it not to your liking.  It runs
+           a default sentence through it.  Do NOT erase the MOUTH.DAT
+           file!
+
+Hint:  It is wise to purchase automaps at inns so as to locate
+dungeons and stuff like that without having to search the entire
+area.  Also keep and eye out for signs and other terrain landmarks.
+
+

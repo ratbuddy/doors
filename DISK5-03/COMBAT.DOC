@@ -1,0 +1,120 @@
+
+
+      Combat Rules:
+
+      Combat is a crucial part of Pit Fiend's Adventure Volume 3.
+      Many things have changed since the inception of the series.
+      Below are the rules for the new combat methodology:
+
+      (1-4):  Attack Monster Set 1-4.
+
+      This command will attack a monster set, if the set is non-existant
+      or all the monsters are dead you will be given the opportunity
+      to reselect a group.
+
+      The character that you use to attack the monsters will first
+      try to get monsters in melee.  If there are no monsters in
+      melee combat he or she will use their missile weapon.  If they
+      do not have the appropriate weapon, they will have a chance
+      to reselect.
+
+      Note that a character cannot fire a missile weapon at a group
+      if ANY of the group's members are in melee.
+
+      Chances of hitting are based on Battle Integrity, Strength
+      (for melee purposes), Coordination (for Missile), Level,
+      and the monster's defenses.
+
+ CAST OPTION
+
+      By selecting the C option, if your character is a spell
+      caster he/she may opt to cast a spell.  See Magic.Doc
+      for details on spell effects.  Some spells cannot be
+      cast during combat.
+
+ EQUIPVIEW OPTION
+
+      By selection this option, the active player will the
+      oppurtunity to view his equipment, such as weapons, armors,
+      and potions.  This does not take up your turn in combat.
+
+ FIRE RING OPTION
+
+      By selecting this option, the person whose turn it currently
+      is can use a magical combat ring.  Rings effect only 1 group
+      of monsters and have a specific amount of charges attached
+      to them.  Once all used the ring becomes useless.
+
+
+ MISSILE/MELEE OPTION
+
+      This option is very important and parties that use it wisely
+      can most easily defeat a slow group of monsters!  When
+      choosing this option you will be presented by a:
+         1.  Missile    2. Melee
+      By selecting one of the above, you have the chance to
+      move one GROUP of monsters to the desired location.  Dependent
+      upon your speed and the monsters speed, the monsters will
+      move to the location of your choice.
+
+  PASS
+      This option bypasses a party member's turn.  They do nothing
+      in that round except for take a defensive stature.  Use this
+      option when all the monsters have died and you have remaining
+      party members still alive.
+
+  RETREAT
+      At the end of your turn your party will end combat and flee
+      the scene.  Of course, if the monsters have yet to have their
+      turn in combat, they will be allowed to attack.
+
+  USE POTION
+      The only potions that may be used in combat are the Healing
+      and Magic Restoration Potions.  View the Potion.Doc for
+      details on potions.
+
+  Z -- Abort Combat
+      This cheater's key has been incorporated as your Ctrl-Alt-Del
+      key (Reset).  Although it doesn't reset the BBS, it does
+      return you back to the BBS WITHOUT saving your character.
+      This is also a safety net against bugs.
+
+Notes on Monsters:
+
+      Monsters generally attack the most powerful member of your
+      party.  The general strategy for most monsters is to cast
+      spells, shoot missiles, and then close to do melee.  They never
+      retreat.
+
+      Some monsters also have the ability to cast Delayed Fireballs,
+      which are sort of a deadly new spell.  Occasionally, you may
+      see the statement, "XXXXX casts a Delayed Fireball, comencing now!"
+      At this point the large flame begins to get larger and stronger.
+      Each turn in combat it will do more damage.  At the end of combat
+      and all the monsters have died, the spell will release and wreak
+      havoc upon the party.  Retreating will avoid the spell, but does
+      not clear the encounter (of course).  It is wise to act quickly
+      when a fireball has been released!
+
+Notes on Screen:
+
+      When you encounter a group of monsters you will be brought up
+      against 1 to 4 sets of monsters.  Each of the sets can contain
+      up to 10 monsters (but no more than 10).  Below is an example
+      of what you may find:
+
+               MELEE                    MISSILE
+
+   1.      (3) Kobolds                 (0) Kobolds
+   2.      (0) Kobold Chieftain        (1) Kobold Chieftain
+
+      Basically this means that groups 3 and 4 are NON-EXISTANT.  While
+      group 1 contains 3 Kobolds in Melee and 0 Kobolds in Missile.
+      Group 2 contains 0 Kobold Chieftains and 1 Kobold Chieftain in
+      Missile Combat.  Do note that even if you have slain all of the
+      monsters in a group, they will remain on the screen, but with
+      quantities of 0 in both the Melee and Missile option.
+
+
+
+

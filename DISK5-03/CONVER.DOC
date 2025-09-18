@@ -1,0 +1,114 @@
+
+
+Conversation Documentation:
+
+Introduction : Conversation in Pit Fiend's Adventures Volume 3 plays
+a crucial part in whether or not you succeed in your quests.  Often
+times people inside the cities hold invaluable clues or even magical
+words required to enter some of the dungeons.  Here is a general
+guideline on how to converse with people that you encounter in cities
+or in the great outdoors.
+
+When you are in a city you will be confronted by a list of people that
+you can talk to.  Choose the person by entering his number when prompted
+as to whom you'd like to talk to.
+
+After you have selected a person you will be confronted with the following:
+
+NAME -->
+DESCRIPTION -->
+
+The person's name of whom you are talking to is under the Name part of it
+and the description of where the person is, what the person is doing,
+and etc are under the description.  Often times you can get valuable
+clues or suggestions as to what to discuss with a person by their
+description.
+
+Important Note:
+  It should be noted that anything in double quotes (") should be inquired
+  about (see below).  Often these are key words which are used to extract
+  important clues and information from a person.
+
+Next you will have the following line appear:
+
+active name, (1-3), (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer ->
+
+
+Active Name  is the person's name that is currently doing the talking.
+You can switch your active player by typing a 1 through 3 to turn on
+a new character.
+
+Describe:  This commands reprints the Name and Description of the person
+you are talking to.
+
+Greet:  Often before Inquiring with a person, you should Greet them.
+By greeting a person you are in short saying, "Hey what's up", or
+"Greetings, how are you", etc.  Often the response from a character
+is a short greeting back.  If a person replies back with something
+in quotes, be sure to ask (inquire) about it!
+
+Inquire:  By inquiring you will be asked to enter a short word
+(under 12 characters).  Usually these words are nouns, but sometimes
+they can be verbs.  If a key word is longer than 12 letters just
+enter as much as you can. Do NOT put quotes around the key word.
+Spelling must be correct.
+
+If you inquire about a keyword that the person knows something
+about he or she will reply with 1-4 lines of words.  If the person
+knows not what you are talking about he or she will return a
+standard statement to the effect that he doesn't know anything
+about what you are asking about.
+
+Leave:  Say goodbye to the person you are talking to.  You are
+then free to select a new person to talk to.  When you leave
+the person you are talking to will often times say goodbye
+back to you or even sometimes give you a clue.
+
+Offer:  Often times, when you lack enough personality to talk to
+someone it may be neccessary to suplicate their pocket books.  By
+selecting this option you will be asked an amount of how much gold
+you wish to "bribe" the other person.  Once you have bribed him he
+will remained bribed until you close conversations with him.  A
+standard bribe is usually in the ranges of 25-100 goldpieces.
+
+Charisma and Talking:
+  High Officials, criminals, jailors, knights, wizards, many
+  "high class" folks are snooty.  They will not talk to one
+  unless they have enough personality to talk to them.  If
+  you lack enough personality to integrate with these folk
+  be sure that you learn how to increase your personality,
+  bribe them, or remain ignorant.
+
+Example of Conversation:
+
+Name : Jonas H. McGinty
+Description:  Salty Captain of the Sea, long white "beard"
+Eddie, (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer -> O {offer}
+I am sorry, I have no need for your money. {doesn't want my money}
+Eddie, (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer -> G
+hello, just arrive from the Port Hartnak!
+Eddie, (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer -> I
+Inquiry: BEARD {I type this in}
+Yes, I have been growing it for a long time.  The women love it!
+Eddie, (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer ->I
+Inquiry: HARTNAK {I type this in}
+Yes, much trouble there, they say a legion of Trolls
+have been hurting people!  They need a hero.  Also
+Angel was seen there!
+Eddie, (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer -> I
+Inquiry: SALTY SEA {I type this in}
+I don't have the slightest idea what you are talking about!
+Eddie, (D)escribe, (G)reet, (I)nquire, (L)eave, (O)ffer -> L
+Have trails, whoops, sails to you... hardy har har.
+
+
+Of course this converstion could have went further, what would have
+happened if I asked about Angel, or Trolls?  Not everything
+that must be asked about is in (")'s.
+
+                                  - * -
+
+
+
+
+

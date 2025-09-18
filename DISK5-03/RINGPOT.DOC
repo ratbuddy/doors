@@ -1,0 +1,102 @@
+                                    Potions
+
+    There are ten different kinds of Potions:
+
+    Healing and Spell Point Restoration:  These potions can be used at any
+    time allowing you to restore lost hit points or spell points.  Amount
+    restored depends upon your level.
+
+    Potions of Luck, Strength, Dexterity,Personality modify
+    your stats until you quit your game.  Also after resting the benefits
+    are lost.  Amount gained varies.  A stat of 20 or higher is
+    considered good and special benefits are gained.
+
+    Potion of Speed:  This potion allows you an additional attack per
+    combat round.  Multiple uses can increase your number of attacks to
+    255 if you have 255 potions.
+
+    Potion of Battle Integrity:  Potion that increases your
+    hitting skill and defenses and saving throws in combat by one.
+    It can be used multiple times, but the effects are lost after
+    combat has been finished.
+
+                                     Rings
+
+    Goodie Magic Items!  There are some 19 rings in the game.  A brief
+    description follows:
+
+    Rings of Protection:  There are five of these things, varying power!
+    For each magical plus you granted one better armor class rating.  It
+    also modifies your saving throws against spells and traps!
+
+    Rings of Shocking, Ice Chill, Sharp Pains, and Skull Crusher are all
+    offensive rings in that they do damage in combat.  ANY class can use
+    these.  They are limited to 10 charges and once all used they are
+    worthless.  They are 100% successful.
+
+    Rings of Regeneration:  There are two of these, the standard one heals
+    you 1 hit point if you are wounded in outdoor mode.  Every square you
+    move into it will restore you 1 hit point.  During combat every three
+    rounds it will heal you 1 hit point.  This NEVER runs out.
+
+    Rings of Regeneration #2, this one serves as a Food Source as well as
+    a healer.  The charges represent how many foods it is worth.  Handy
+    for getting beyond the 99 food limit.  When it runs out of charges it
+    becomes a normal Ring of Regeneration.
+
+    Ring of X-Ray Vision:  This rings will allow you to peep through a
+    door to see what monsters lurk inside.
+
+    Feather Falling:  The cheapest of the rings, this helps you avoid all
+    falling traps such as pits.
+
+    Water Walking:  Longest this thing has charges you are exempt from the
+    25 point movement cost of walking in water.  Once out of charges it
+    becomes worthless.  Its use is automatic.  It is NOT used in dungeons
+    though, onyl outdoors.
+
+    Wall Remover:  This will remove a section of wall in a dungeon.  It
+    will make it a blank space.  This is dangerous to use with 1 charge,
+    since you may get locked out.  If and when you quit or exit off the
+    current map the "eradicated" wall returns back to normal!  So in other
+    words, whenever you see "Loading/Dencrypting....." you know that the
+    wall that was removed is now replaced!  Also be careful that you don't
+    exit off a map unto a non-existant map.  No means of protection have
+    been installed into the game.  If you do walk off the map you will be
+    dropped back to the BBS without saving your character with an I/O
+    error!  You are warned.
+
+    Wall Remover 2 has more charges than Wall Remover #1.
+
+    Teleportation:  This is also a VERY dangerous ring.  Its intended use
+    is for you to use it to get from one side of a map to another.  For
+    instance, if you know the x,y location of the city in the northern
+    part of a map and you are on the southern, far far away, cast it and
+    you will be there.
+
+    By using this ring you could tecnically travel all around the world
+    quite easily, but you may never get back on to the continent.  Walking
+    off an undefined dungeon map or wilderness map will dump you back to
+    the BBS with an I/O error, with NO save.  Be careful with this ring!
+    You are WARNED!!!
+
+    Ground Level:  This handy ring will return you back to the outdoor
+    portion of the game from ANY dungeon!  So if you are 6 levels up or
+    down and not wish to walk back through it, use it!  Once used it
+    becomes worthless.  A great Time saver!
+
+    Magic Resistance, will absorb 255 points of damage before becoming
+    useless.  It will only absorb most magic spells, but not all of them.
+    It will generally protect against fireballs (but not delayed)
+    but not against curses.
+
+Magic Weapons:
+    Many weapons that can be found or bought contain magical bonuses
+    (+'s) which allow you to do more damage and get additional attacks.
+    The more the pluses the more magical it is.  Be warned, some magic
+    items are cursed and can't be gotten rid of unless sold to an
+    unsuspecting general store owner.  (which could be a long walk!)
+    To many magical minuses could prevent a character from attacking
+    at all (in melee or missile!).
+
+
