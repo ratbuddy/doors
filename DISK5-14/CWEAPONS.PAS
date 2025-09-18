@@ -1,0 +1,88 @@
+program Create_weapons_file;
+
+type  weapon_type = record
+         num: byte;
+         name:  string[16];
+         melee: boolean;
+         damage: integer;
+         numat: integer;
+         hand2hand: boolean;
+         cost: integer;
+         magical: integer;
+         classret : string[6];
+         end;
+
+var g1:file of weapon_type;
+    weapon:array [0..10] of weapon_type;
+    count: integer; strint:string[2];
+
+begin
+for count:=0 to 10 do weapon[count].num:=count;
+for count:=0 to 10 do weapon[count].name:='                     ';
+for count:=0 to 10 do weapon[count].magical:=0;
+weapon[0].name:='NONE';
+weapon[1].name:='DARTS';
+weapon[2].name:='STAFF';
+weapon[3].name:='SHORT SWORD';
+weapon[4].name:='BOW';
+weapon[5].name:='MACE';
+weapon[6].name:='LONG SWORD';
+weapon[7].name:='TWO-HANDED SWORD';
+weapon[8].name:='WAR HAMMER';
+weapon[9].name:='DWARVEN HAMMER';
+weapon[10].name:='ELFIN LONG BOW';
+for count:=0 to 10 do weapon[count].melee:=true;
+weapon[1].melee:=false;  {melee}
+weapon[4].melee:=false;
+weapon[10].melee:=false;
+weapon[0].damage:=0;
+weapon[1].damage:=4;
+weapon[2].damage:=6;
+weapon[3].damage:=6;
+weapon[4].damage:=8;
+weapon[5].damage:=8;
+weapon[6].damage:=10;
+weapon[7].damage:=16;
+weapon[8].damage:=10;
+weapon[9].damage:=16;
+weapon[10].damage:=10;
+for count:=0 to 10 do weapon[count].numat:=1;
+weapon[1].numat:=3;
+weapon[4].numat:=2;
+for count:=0 to 10 do weapon[count].hand2hand:=false;
+weapon[9].hand2hand:=true;
+weapon[7].hand2hand:=true;
+weapon[0].cost:=0;
+weapon[1].cost:=12;
+weapon[2].cost:=10;
+weapon[3].cost:=10;
+weapon[4].cost:=75;
+weapon[5].cost:=20;
+weapon[6].cost:=50;
+weapon[7].cost:=150;
+weapon[8].cost:=50;
+weapon[9].cost:=1000;
+weapon[10].cost:=1000;
+for count:=0 to 10 do weapon[count].classret:='      ';
+weapon[0].classret:='123456';
+weapon[1].classret:='12456';
+weapon[2].classret:='1245';
+weapon[3].classret:='123456';
+weapon[4].classret:='13456';
+weapon[5].classret:='1345';
+weapon[6].classret:='1456';
+weapon[7].classret:='1';
+weapon[8].classret:='35';
+weapon[9].classret:='5';
+weapon[10].classret:='6';
+assign(g1,'weapons.dat');
+rewrite(g1);
+for count:=0 to 10 do write(g1,weapon[count]);
+close(g1);
+assign(g1,'weapons.dat');
+reset(g1);
+for count:=0 to 10 do begin read(g1,weapon[count]);
+  writeln(weapon[count].name);
+end;
+close(g1);
+end.
