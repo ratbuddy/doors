@@ -1,0 +1,82 @@
+Thank you for registered Pit Fiend's Adventure Volume 2.   Here are
+some reminders to you about what is new and what you should do to run
+the adventure and keep your save.
+
+Evidently, you must have been running the game so basically do the following:
+
+Unzip everything in the PF2 directory, replacing everything, including the
+Table.Dat file.  The format to this file has been changed and will be blank.
+No harm will come to the characters, as this is just a display device.
+
+New Files:
+
+View.COM this file lets you view the *.DNG and WilderXX.PIT files.  These
+have been encrypted to prevent tampering and unauthorized distribution.
+With View.COM you can print out the screen to help players who are having
+problems finding a dungeon or something of that nature.
+
+Disregard all references in the Chat files about Journal Entrys.
+
+Lady Linda can be spelled two ways in the game, Lady Linda and Lady Lynda.
+More than likely it will be Linda.  Also B'lithe in the first town refers
+to a town called Castle Kzin, this is non-existant and will most likely
+appear in PF3.
+
+Viewchr2.Exe is the character editor.  This program will modify characters
+items, goldpieces, just about everything except their location.  Use at
+your own discretion.   It is MEANT to repair bugs, damages, or just
+help a low level character boost their stats up.  The Beta Versions did
+have this but was rarely used at the home site of the game, therefore
+it is NOT necessary to use this program to win.
+
+Some Changes:
+
+You may only camp three times per day.
+You may only try to enter a dungeon three times a day.
+
+A day means one game play.
+
+We have NOT put any regulation of the amount of times per day you can play this
+game.  We recommend you do the following to police this activity.  In your
+Batch file that calls the Game include this line:
+    ECHO PLEASE PLAY ONLY XX TIMES PER DAY -- JOE SYSOP.
+
+You may have to holler at users who abuse this trust and/or lower their access
+but this was the easiest, fastest, and least aggrivating way to do it.
+
+You may also modify the Title Screen with that statement also but please leave
+your Board's Name and Number on it.
+
+Reroll.Bat
+This batch file will reset the Magic Mouth (by calling CMMOUTH), Reset the
+Table file (registered version of Table file, do not that this table file
+is NOT compatiable with unregistigered versions!), and delete all
+save characters.  Feel free to hand delete characters if you want or use
+Viewchr2 to delete them.
+
+Fast Mode even Faster?
+Yes a second question in the Fast mode operation allows a person to avoid
+seeing the MAINDUN.ANS file.  This allows very fast return from combat (saving
+as much as 4-5 seconds at 2400).  Later Versions might have the Combat
+screen abortable as well.  You can get the MAINDUN.ANS file back after setting
+the fast mode by hitting '?' or going back into the Fast-mode selection.
+
+Please READ VERY IMPORTANT.
+
+Pit Fiend's Adventure Volume 2 is a massive amount of work and took many
+months to develop.  It is my fondest hope that you will NOT distribute the
+registered version.  The copy you have has been serialized and encoded
+uniquely.
+
+I plan to continue to make quality onliners if they are not abused.  Again
+please do not distribute this game nor any of the components.
+
+And finally, enjoy the game and hope you play to see the end of Pit Fiend.
+Today it was accomplished at 32000+ moves (I forget the exact number).
+You can contact several boards (Hz Castle, Eyes of the World (NET),
+Circus Maximus (NET), Altered Dimensions (NET), Castle Kzin, if you have
+any questions or drop me a line.  The NET boards above, just e-mail the
+sysop their and tell him to forward it to me, as I do not know my
+user number.
+
+All of those boards are in the (213) area code.

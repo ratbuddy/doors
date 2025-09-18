@@ -1,0 +1,922 @@
+                                        
+    
+    
+                                PIT FIEND LIVES
+    
+    
+                    Rules for PIT FIEND ADVENTURES VOLUME ][
+    
+                                RELEASE VERSION
+    
+    Introduction:  
+    
+    Well folks here is the documentation for Pit Fiend's Adventures Volume 
+    2.  This game is highly complex and will take many calls to complete 
+    if playing via modem....  It is not for the person who plays to kill 
+    things and destroy, rather for those who like to use their mind to 
+    solve puzzles...  You are warned.
+    
+    The game is very detailed and it is important for you to read the 
+    rules so that you may completely understand what is going on!
+    
+    
+    The Story Line:
+    
+    In the world of Californica there lived the mightiest wizard that ever 
+    lived.... Loran the Mighty.  He was an evil wizard of great power and 
+    used his power for wrong doing.  His plots were diabolical and 
+    eventually he was strong enough to summon the evilest of demons, the 
+    Pit Fiend... together they attempted to take over the lands of 
+    Californica.  
+    
+    Luckily there was a king, King Lagor who led the attacks against the 
+    two most evilest forces in all of time.  His attacks proved successful 
+    and was able to corner them in a dungeon that was mighty and twisted.  
+    Few survived the horrors inside and only a few were able to reach the 
+    end to kill Loran... 
+    
+    But Pit Fiend was able to escape and fled the battle that ensued.  
+    Hurt and without a wife he fled to a place that only a shattered diary 
+    tells about...
+    
+                     The Diary told me Yolamdar, the Hermit
+    
+    I had went into the hills of *@$&()!)1*() hoping for some serentity 
+    from the world's toils... I had been giving access to go into these 
+    hills due to my good works in society... I merely needed a chance to 
+    get in tune with the spritual order, when something bizzarre happened.
+    
+    I was sitting near a chunk of rock near **@#)@*@#* when a loud crash 
+    of thunder came across the sky and lightning shreaked.  I immediately 
+    came out of my trance of deep meditation as the rain fell.  I gazed 
+    upon my surroundings and saw a large black shape falling from the 
+    sky...  I stood up and took cover behind a large rock.
+    
+                                    Page -1-
+    The shape took form as it approached and suddenly it came within 100 
+    feet of the outcropping of rock known only as @#*&@($&#@.  It landed 
+    and from my travels I noticed that it was the mighty Pit Fiend with 
+    demon that has been remuored to be immortal, Mojave the Phoenix bird!  
+    
+    &*(#$*(& he chanted some words that were unrecognizable to me and 
+    entered the &(*#@$(*@()#(@*#(@#*(*@( 
+    
+    As it entered it turned into a man and Mojave waited outside.  The Pit 
+    Fiend yelled something at the mighty bird and Mojave took back into 
+    the sky....  It had begun to rain much harder now and the entrance to 
+    the cave closed.
+    
+    Shivering with cold and fright I hid there and waited, wondering if it 
+    would be safe to leave.  Mojave, could spot me from anywhere and he 
+    could be back at any moment.... so I stayed...
+    
+    It wasn't till two days later that he returned, carrying with him a 
+    new and most evil bandit... whose ways are quite comparable to those 
+    of Pit Fiend's.  Xevior, the renegade Dwarf.  Rumors of his evils are 
+    spread throughout the realm.
+    
+    Xevior entered the outcropping and Mojave took back to the sky and 
+    headed eastward... that was the last I saw of him.
+    
+    It was three days later when I finally managed the courage to leave 
+    the holy place of her *(&@#*($*&*&()@()*($()* but during that time I 
+    heard chanting, female screams, and the storm did not let up until the 
+    chanting had ceased... whatever it was, the duo had done I do not 
+    know, but their was something amiss.....
+    
+    
+    That piece of journal had shown up on a raiding dwarven captains body, 
+    no one knows what happened to Yolamdar or his bird Tesar...  To this 
+    day, this piece of journal has been circulated around the lands and is 
+    of particular interest in Scottsville, the new guard of the land!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                    Page -2-
+                            CREDITS AND THANK YOU'S
+    
+    Game Concept and Design:  Pit Fiend
+    IBM WWIV Programming:  Pit Fiend and Lukas
+    Documentation:  Pit Fiend
+    Dungeon Creation:  Pit Fiend and Lukas
+    World Creation:  Pit Fiend
+    IBM DOS Version:  Pit Fiend and Lukas (available Aug 90)
+    Language Used:  Turbo Pascal 3.0
+    Beta Testing Boards:  After Midnite, A Touch of Mugwort, The Game 
+    Syndicate, Castle Kzin, Hz Castle, Mindcraft.
+    Ansi Screens:  Pit Fiend and Lukas
+    Special Thanks to the Following Folks:
+    
+    Ali and Jim:  Without whose Expertise and Insight This Game would not 
+    have been made possible.
+    
+    Dan R.  :  Special thanks for the mods, support, and help with some of 
+    the coding.
+    
+    Brian A. (The Big B.A.) hey dude thanks for letting me use your name 
+    (Xevior), you can find his name on his bowling ball!  Score another 
+    200+ game!
+    
+    Mr. Goodwrench, hey dude next time backup the dungeon files you had 
+    for me before a hard drive crash!
+    
+    Iron Horse:  A very special thanks for the suggestions and all the 
+    HOURS you put into beta Testing.... On his board, Hz Castle.  Without 
+    whose support and patience this game would not have been made 
+    possible.
+    
+    Dragonmaster:  An Extra special thanks for this guy who played this 
+    game like crazy... even at 1200!!!! Damn what patience... anyhow this 
+    guy uncovered a lot of bugs and ran one of the most powerful 
+    characters I had seen!  Thanks for all the help, I owe ya one!
+    
+    The Cracker:  Hey man, great job with the beta testing... quite a 
+    powerful fighter there.... you found a lot of killer bugs too... Great 
+    Work and thanks goes out to this Amiga Player.
+    
+    Marauder:  Thanks for the camping Mod, should help out the early 
+    players... thanks!
+    
+    Awesome One and Night Raven:  You guys disappeared for a while... 
+    anyhow got you guys into the game.  Great work and thanks for the 
+    support!
+    
+    Tanis:  A late starter but nonetheless a dude who helped checked out 
+    the game!
+    
+    
+    Blith:  (Spell it right) hey dude thanks for letting me use your board 
+    to beta it.... not too much response this time though... but thanks 
+    nonetheless.
+    
+    
+                                    The Land
+    
+    The lands of Californica is troubled, dwarved marauding through the 
+    land is common place and Mojave has been harassing shipping.  It is up 
+    to a small group of adventurers to bring an end to this while the 
+    knights of Scottsville attempt to protect the various cities.
+    
+    The Cities:
+    
+    Malago's Cove:  This large thriving sea port is the starting port of 
+    the adventure.  Located on an island, this place makes its living from 
+    hunting, farming, and fishing.  It is a hot bed for rumors and is well 
+    stocked with standard equipment for adventurers.
+    
+    Riverside:  The Elven Vale of the island.  This small town has been 
+    plaqued by attacks, spurned by Xevior.  Much information and magic 
+    items can be purchased or found there!
+    
+    Torrents:  This sea town is a busy trading spot, although somewhat 
+    hindered by the Kobolds on the island, they are well stocked with 
+    information and have a historian there!  It is also well stocked with 
+    people.
+    
+    Carmel:  This halfling shire is busy and has a small population.  They 
+    are well known for their tea and friendly attitude towards strangers, 
+    a happy folk.
+    
+    Scottsville:  The Knights of Scottsville live here and defend the 
+    honor of Lady Lynda.  A beautiful and most honorable knight.  She 
+    fought evil in the darkest of ages.  Scottsville also is well stocked 
+    with priestess's of Lady Lynda and offers very magical weapons and 
+    armor.. but at a price.... the holy ones live here.
+    
+    Apple Valley:  A druidical place where they grow Apples and Fresh 
+    Fruit for the world.  This place is far to the north of Malago's Cove.
+    
+    
+    Palm Springs:  A place of relaxation.  Has many legends since a local 
+    history college is located nearby.   Much adventure for those willing 
+    to risk their lives in the desert.
+    
+    
+    
+    
+    
+                                    Page -3-
+    Terrain in the Land
+    
+    In the land of Californica there are many different types of terrain, 
+    a brief description follows:
+    
+    Clear
+    Description:  Blank Space
+    Effects:  No movement hinderence.
+    
+    Forest:
+    Description:  Tree, green
+    Effects:  Costs an additional movement point to enter, very good for 
+    hunting.
+    
+    Mountain
+    Description:  A triangle, 
+    Effects:  These slow your movement by up to 25 points, depending if 
+    you find a path through it!  Mountains are typically not good to hunt 
+    in!
+    
+    River
+    Description:  Blue splotch.
+    Effects:  These slow your movement by 25 points unless you have a ring 
+    of Water Walking.  There are completely crossable and are very good to 
+    hunt in.
+    
+    Bridge
+    Description:  A blinking red 'B'
+    Effects:  Due to the evil in the lands, trolls often guard these 
+    bridges and most be either bribed off or fought, they are tough so 
+    beware!
+    
+    City
+    Description:  A blinking red 'C'
+    Effects:  These are enterable if you wish.  See city section.
+    
+    Beach/Desert
+    Description:  A Yellow splotch
+    Effects:  Movement like a forest but makes you consume more food/water 
+    when you are on them.  Hunting is very poor here.
+    
+    Border/Coastline
+    Description:  Purple lines
+    Effects:  Un-crossable.
+    
+    
+    Movement:
+    
+    You move your character through the lands with your numeric keypad.  
+    Use '8' to move north, '4' to move west, '6' to move east, and '2' to 
+    mvoe south.  If the movement is too slow you may opt to switch to fast 
+    mode by hitting 'F' while outdoors.  This removes the color from the 
+    view and makes movement faster!  It is highly recommended for 1200 bps 
+    and some 2400 bps.  Not recommended for 9600 or higher users.
+    
+                                    Page -4-
+                          Other Commands for Outdoors
+    
+    'A':  automap, this key allows you to view what you have explored 
+    already.  The game automatically updates the map for you.  Once you 
+    quit or move to a new section of a map the auto-map is gone!  
+    
+    'C':  Camp, this will restore all your hitpoints and magic points but 
+    there is a very good chance (25%) of a wandering encounter.  It is 
+    modified by Luck.
+    
+    'F':  Fast-Mode, see above section.
+    
+    'H':  Hunt, this allows characters to hunt for food, but at a high 
+    price of movement points and the chances are depend upon the current 
+    location of the character.  See terrain for recommendation on where to 
+    hunt.  Elves are also very skilled at hunting!
+    
+    'I':  Inspect, this command allows you to inspect a location near you 
+    or one that you are standing on.  Hit the direciton you wish to check-
+    out or '5' if you are standing on it.  
+    
+    'Q':  Quit and Save, this saves your character and sets your movement 
+    points to zero.  You will be prompted with a message of:
+    
+    'Reminders for Next Time (25 chars)?:'
+    
+    this allows you to write a little message to yourself reminding what 
+    you were doing when you quit (in case you forget).  This message will 
+    pop up when you restart the game.
+    
+    'R':  Ring use... if applicable you will be able to use a ring at this 
+    time.  Combat rings cannot be used in non-combat situations.  Rings of 
+    Protection and Regenerations are also non-useable.
+    
+    'S':  Save Character, recommended to be used every 100 moves or 
+    whenever you win a big combat.  All potions that are in effect on one 
+    of your stats will be removed when you do a save.
+    
+    'U':  Use Potion, allows you to use a potion.  All potions are usable 
+    anywhere except X-ray vision, which is only usable in Dungeons.
+    
+    'V':  View Character, allows you to view your character, also 
+    refreshes  the screen in case of line noise.
+    
+    'X':  X-ray, use the potion of X-ray vision, the ring, or a Rogue's 
+    natural ability to x-ray doors.  X-ray vision allow you to see what is 
+    in a room (monster-wise) prior to entering it.  Handy if you are not a 
+    strong fighter or are seriously wounded.
+    
+    'Z':  Special Character Functions, allows you to destroy your 
+    character or quit without saving, upon your choice.
+    
+                                    Page -5-
+    
+                                    Dungeons
+    
+    Dungeons are the mainstay of evil.  All the commands listed above are 
+    operatable in the dungeons.  Some notes about dungeons follow:
+    
+    Entering:  When you find a dungeon (an upsidedown 'U', blinking red) 
+    you may be prompted with a request to enter three words.  You MUST 
+    have these three words to enter!  
+    
+    These words can be found from villages, not another user!  If you get 
+    the words from say your friend it will not allow you to enter!  Your 
+    friend though could tell you who to talk to in cities to earn the 
+    words.  Some dungeons though that aren't as important do not require 
+    words to enter and you will not be prompted to enter any if this is 
+    the case.  If you fail to enter the correct words or do not have the 
+    necessary toggle to enter it you will be attacked!
+    
+    Movement Notes:
+    
+    Some dungeons are partially flooded and the streams or muck-pools 
+    require an additional movement point to enter.  
+    
+    Unlike Pit Fiend Volume I, rooms are walk throughs.  Meaning once you 
+    defeat the monster you can enter the room and possibly find another 
+    door leading elsewhere, or treasure.  Also, once a room is cleared of 
+    monsters it remains cleared!  Forever!  You can use it as a resting 
+    spot.
+    
+    Some special notes on terrain in dungeons:
+    
+    '$' :  Treasure or a special event.
+    These are like the signs in Pit Fiend Volume I and sometimes contain 
+    treasure.  Gold, potions, and food can be found with these!  They 
+    disappear once read or used.  If you quit and save and call back later 
+    the game knows that you have already gotten treasure there (if any) 
+    and will not give you more.
+    
+    'D' :  doors
+    These contain rooms with monsters in them.  Remember, once you defeat 
+    monsters in a certain room they are gone forever.
+    
+    Guard Posts,
+    These are not shown of the screen, but contain monsters who are 
+    guarding an area.  They will be there forever and can be refought in 
+    some circumstances.
+    
+    Wandering Monsters
+    
+    Wandering Monsters in dungeons are assigned by your level, you fight 
+    something that pertains to your level, but in the outdoors it is 
+    determined by your wilderness map... so if you get killed a lot on a 
+    certain map, you should probably not be there.
+    
+    
+                                    Page -6-
+    More Movement Figures
+    
+    On the right hand side of your screen you will find information 
+    pertaining to your hit point status, magic point status, your location 
+    in x and y terms.  As well as food and armor class.  
+    
+    HPS:  Hit points current/Hit Points Maximum
+    MPS:  Magic Points current/Magic Points Maximum
+    LOX:  Location in X terms
+    LOY:  Location in Y terms (uesd mainly for teleportation rings)
+    AC :  Armor class (the higher the better)
+    FOD:  Food, the more the better, 99 is the maximum.
+    ACT:  Your Current action that you just did.
+    
+    Below that you will find the name of the dungeon you are in currently 
+    if you are in a dungeon.
+    
+    
+                                      Food
+    
+    Rougly every 100 moves, you will eat one ration of food.  If you run 
+    out your game for that call is over.  Also you will loose hit points.  
+    Be sure you have plenty of food, otherwise your game will be limited 
+    to 100 moves per call, instead of 255.
+    
+    
+                                     Cities
+    
+    Cities are of great importance, below is a description of everything 
+    you can do in a city.
+    
+    'A' : arena of death, 
+    
+    Here you can fight other users, send e-mail to ANY playing character 
+    (regardless of city location), or spy on a character.
+    
+    'B' :  Boating
+    If the city is a port, you can save great amounts of time by traveling 
+    on a boat.  Some cities boating activities are limited by monsters or 
+    toggles....
+    
+    'C' :  Chat with people
+    
+    This is probably THE MOST important part of the city.  When you hit 
+    'C' the local community will pop up and you will be able to talk to 
+    any one of them.  It is VERY important that you write down what they 
+    have to say if it is important.  Sometimes they like to ramble on 
+    about weird stuff, but be sure you talk to them.
+    
+                                    Page -7-
+    When you talk to them it is always VERY wise to 'GREET' them first by 
+    hitting G.  Most of the time they will give you a clue as to what they 
+    want to talk about like for instance:
+    
+    Tobias
+    (D)escription (G)reet  (I)nquiry  (L)eave person.
+    
+    When you first choose a person to talk to there name will pop up and a 
+    brief description of what they look like and what they are doing.  To 
+    see it again hit "D" and it will come back up for you to examine.
+    
+    When you Greet a person by hitting 'G' you are basically saying 
+    "HELLO, WHAT'S UP", usually they will respong something like this:
+    
+    "GREETINGS, WELCOME TO "HELLTOWN"!"
+    
+    You will notice that Helltown is in quotes.  So you hit 'I' for 
+    inquiry and type:  HELLTOWN  (note do not put question marks or quotes 
+    around it and spelling must be correct!!!!)  Tobias in this case may 
+    say:
+    
+    "Yes it is quite hot here, but I know of a dungeon, called "DOOM"."
+    
+    Again you hit 'I' and type DOOM.  He may then give you words or tell 
+    you more about it etc...  (note Tobias in not the game and most 
+    converations are more realistic than this!)
+    
+    When you are done with that person hit 'L' to say "Good-Bye", most of 
+    the time they will say good-bye back, often times they may give a clue 
+    in their good-bye statement which means you have to reenter 
+    conversation with him.  Most towns contain roughly 10 or so 
+    conversations.
+    
+    'F'ast Mode, you can set the outdoor fastmode in towns in you want to, 
+    but it has NO effect in towns.
+    
+    'G' General Store
+    Here you can buy food, weapons, and armor.  It is very wise to buy 
+    both a melee weapon and a missile weapon.
+    
+    'L' leave town, lets you outside!
+    
+    'P' potion store... allows you to buy potions, see potion section for 
+    a description on potions
+    
+    'Q' quit and save (as movement)
+    
+    'R' Ring store as potions but see ring section for description of 
+    rings.
+    
+    'S' save character.  Save your character without quitting.
+    
+    'T' tavern, gamble your hard earned money or hear some decent rumors.
+                                    Page -8-
+    'V' View Character as movement
+    
+    'Y' Your Guardian Angel, you will get to here some helpful hints and 
+    recommendations as to where and what to do.  Written by myself or 
+    Lukas these are of outmost importance to read.
+    
+    'Z' Char. Function, as in movement.
+    
+    Towns have various prices depending upon their price modification.  
+    The more expensive a town is the more magical their weapons are as 
+    well.
+    
+                                    Boating
+    
+    Boating is rather simple.  Depending upon which city you are in you 
+    can sail to other cities.  Sometimes boating is restricted because of 
+    Mojave or other incidents.  You must remove the obstacle prior to 
+    sailing.
+    
+    Boating is always safe and usually fairly expensive in terms of gold 
+    pieces, but it sure beats walking!  When you sail you will loose all 
+    your moves for that call and will be outside the city you were 
+    destined to arrive in!
+    
+                                 General Store
+    
+    The General Store is the mainstay of building up an aresenal of 
+    weapons.  Whether magical or not, these weapons determine whether you 
+    will survive long in Pit Fiend ][.  
+    
+    Armor:  The armor store is where you purchase armor.  Be sure to sell 
+    any existing armor you might have prior to purchasing a different 
+    suit.  The higher the armor defense rating the better it is!  Also, 
+    usually, their is a movement hinderence.  Meaning you get less moves 
+    per day if you are wearing bulky armor.  Choose wisely.
+    
+    Food:  This is where you buy food.  The maximum amount of food you can 
+    buy is 99.
+    
+    Magic Staves:  Only elves and magic users are allowed to purchase 
+    anything here.  The more damage a particular staff can do the better 
+    it is (and more expensive) and the less likely it will succeed in 
+    combat!  Hit 'I' for information if you need to learn more about a 
+    particular staff.
+    
+    
+    
+    
+    
+                                    Page -9-
+    Weapons:  Ahh.... the most important factor in the game.  The higher 
+    the damage the better it is.  There are two different kinds of 
+    weapons:  Melee and Missile.   Melee weapons are used in close combat 
+    and are put in your character's melee slot.  You also have a slot for 
+    missile weapons.
+    
+    Missile weapons are used in missile combat, when monsters are not in 
+    hand to hand.  They usually have multiple attacks per turn.  That is 
+    an important factor.
+    
+    Magic Bonuses with weapons:  Magic bonuses, such as +1 allow you more 
+    damage each strike as well as a better chance of hitting.  Your damage 
+    is computed by going through a loop for each plus; i.e. a +1 Long 
+    Sword with a maximum damage of 10 can do 2-20 points of damage.  It is 
+    NOT neccessarily double damage though.
+    
+    Be sure to sell any equipment such as weapons BEFORE purchasing a new 
+    one, the new weapon overwrites your slot, thus erasing the previous 
+    weapon.  Hit "V" in the main area to determine if you indeed have a 
+    weapon PRIOR to buying a new one.
+    
+                                   Leave City
+    
+    This will take you out of the city.  Be sure you have purchased 
+    weapons and armor prior to leaving.  
+    
+                                    Potions
+    
+    There are nine different kinds of Potions:
+    
+    Healing and Spell Point Restoration:  These potions can be used at any 
+    time allowing you to restore lost hit points or spell points.  Amount 
+    restored depends upon your level.
+    
+    Potions of Luck, Strength, Dexterity mod your stats until you save or 
+    quit your game.  Amount gained varies.  A stat of 20 or higher is 
+    considered good and special benefits are gained.
+    
+    Potion of Speed:  This potion allows you an additional attack per 
+    combat round.  Multiple uses can increase your number of attacks to 
+    255 if you have 255 potions.
+    
+    Potion of Time Distortion:  Allows you 50 extra moves for that call 
+    only.  Can only be used once per call, regardless of amount possessed!
+    
+                                 Quit and Save
+    
+    Save will remove all effects of potions.  Quit will quit you back to 
+    the BBS, saving your character.  Enter a reminder to yourself so you 
+    know what you are doing next time you play.
+                                   Page -10-
+                                     Rings
+    
+    Goodie  Magic Items!  There are some 19 rings in the game.  A brief 
+    description follows:
+    
+    Rings of Protection:  There are five of these things, varying power!  
+    For each magical plus you granted one better armor class rating.  It 
+    also modifies your saving throws against spells and traps!
+    
+    Rings of Shocking, Ice Chill, Sharp Pains, and Skull Crusher are all 
+    offensive rings in that they do damage in combat.  ANY class can use 
+    these.  They are limited to 10 charges and once all used they are 
+    worthless.  They are 100% successful.
+    
+    Rings of Regeneration:  There are two of these, the standard one heals 
+    you 1 hit point if you are wounded in outdoor mode.  Every square you 
+    move into it will restore you 1 hit point.  During combat every three 
+    rounds it will heal you 1 hit point.  This NEVER runs out.
+    
+    Rings of Regeneration #2, this one serves as a Food Source as well as 
+    a healer.  The charges represent how many foods it is worth.  Handy 
+    for getting beyond the 99 food limit.  When it runs out of charges it 
+    becomes a normal Ring of Regeneration.
+    
+    Ring of X-Ray Vision:  This rings will allow you to peep through a 
+    door to see what monsters lurk inside.
+    
+    Feather Falling:  The cheapest of the rings, this helps you avoid all 
+    falling traps such as pits.
+    
+    Water Walking:  Longest this thing has charges you are exempt from the 
+    25 point movement cost of walking in water.  Once out of charges it 
+    becomes worthless.  Its use is automatic.  It is NOT used in dungeons 
+    though, onyl outdoors.
+    
+    Wall Remover:  This will remove a section of wall in a dungeon.  It 
+    will make it a blank space.  This is dangerous to use with 1 charge, 
+    since you may get locked out.  If and when you quit or exit off the 
+    current map the "eradicated" wall returns back to normal!  So in other 
+    words, whenever you see "Loading/Dencrypting....." you know that the 
+    wall that was removed is now replaced!  Also be careful that you don't 
+    exit off a map unto a non-existant map.  No means of protection have 
+    been installed into the game.  If you do walk off the map you will be 
+    dropped back to the BBS without saving your character with an I/O 
+    error!  You are warned.
+    
+    Wall Remover 2 has more charges than Wall Remover #1.
+                                   Page -11-
+    Teleportation:  This is also a VERY dangerous ring.  Its intended use 
+    is for you to use it to get from one side of a map to another.  For 
+    instance, if you know the x,y location of the city in the northern 
+    part of a map and you are on the southern, far far away, cast it and 
+    you will be there.  
+    
+    By using this ring you could tecnically travel all around the world 
+    quite easily, but you may never get back on to the continent.  Walking 
+    off an undefined dungeon map or wilderness map will dump you back to 
+    the BBS with an I/O error, with NO save.  Be careful with this ring!
+    You are WARNED!!!
+    
+    Ground Level:  This handy ring will return you back to the outdoor 
+    portion of the game from ANY dungeon!  So if you are 6 levels up or 
+    down and not wish to walk back through it, use it!  Once used it 
+    becomes worthless.  A great Time saver!
+    
+    Magic Resistance, will absorb 255 points of damage before becoming 
+    useless.  It will only absorb magic spells.
+    
+                                     Tavern
+    
+    By purchasing a drink you may here a rumor, most of the time they are 
+    false.  Prices of liquor depends upon the expensiveness of the town 
+    and your Personality.  No age limit!
+    
+    Gambling is allowed here, you can either play dice or slots.  Fairly 
+    self explanatory.  Basically good for getting a lot of extra cash to 
+    start the game with.  Otherwise the chances of winning are rather poor 
+    here. 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                   Page -12-
+                              Your Guardian Angel
+    
+    Hit 'Y' to see what either myself or Lukas has to say to you!  Often 
+    times we will tell you generally what you will need to go places or 
+    suggestions as to who to talk to.  Since it is kind of difficult to 
+    add a clothe or paper map into an onliner we decided this feature was 
+    to substitute.  Also you get to meet our personalities somewhat 
+    through this feature.
+    
+    
+                               Char Function 'Z'
+    
+    This will allow you to quit without saving, erase your character so 
+    you can start over (or just plain quit and save the sysop some room on 
+    his drive).  All inputs are permanent here so choose wisely.
+    
+    
+    
+                                  Outdoor Inns
+    
+    Throughout the continent you will find inns that will allow to rest 
+    quite safely and comfortable... for a cost.  All your spell points and 
+    hit points will be restored at no movement loss!
+    
+    Also inns will sell you an automap of the current wilderness area you 
+    are in, VERY handy for finding out where dungeons are without having 
+    to explore vast areas.
+    
+    These are flashing 'I's.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                   Page -13-
+                                  C O M B A T
+    
+    Combat, ah.. everybody's favorite part.  Okay here are the rules:
+    
+    '1234' attacks a certain monster
+    'F'    uses a combat ring (only)
+    'M'    switches the monsters to/from missile or melee. 
+    'P'    passes your turn
+    'R'    Retreat
+    'S'    use staff
+    'T'    Turn Undead
+    'U'    Use Potion (any)
+    'Z'    Only in Beta versions, drops you back to the BBS without a 
+    save.  Used in emergencies, bugs, or to cheat.
+    
+    Hps :  current hitpoints of your character
+    MPS :  Magic Points of your character
+    AC  :  armor class of your character
+    
+    Monster Stats:
+    #X  :  Monster ID number, used to identify who you wish to attack
+    NAME:  Name of Monster
+    HPS :  Current Hitpoints of the monster.
+    MPS :  Magic Points of the Current Monster.
+    AC  :  armor class of the monster.
+    MEL :  highlighted with a '*' if in Melee combat
+    MIS :  highlighted with a '*' if in Missile range.
+    
+                              Attacking a Monster
+    
+    To attack a monster hit the number of their location.  The program 
+    automatically determines which weapon you will use.  If the monster in 
+    question is in melee combat it will use your melee weapon to attack 
+    it.  If the monster is in melee it will use your missile weapon. 
+    
+    Missile Combat:  Missile combat is dependent upon your character's CRD 
+    (coordination skill) as well as the magical bonus of his/her missile 
+    weapon.  Damage is determined by weapon type and magical bonus.
+    
+    Melee Combat:  Melee combat is dependent upon your character's STR 
+    (strength skill) as well as the magical bonus of his/her melee weapon.
+    
+                                   Fire Ring
+    
+    A fire Ring will effect all monsters and is soley dependent upon the 
+    damage of the ring and whether or not a monster makes its saving 
+    throw.
+    
+                                      Pass
+    This will pass your turn over completely.  Use it if you feel a need 
+    to.
+    
+                                   Page -14-
+                                    Retreat
+    
+    Retreating is often times a last resort but a VERY necessary one.  
+    Often times you will be setup against some powerful monsters.  You 
+    will only loose 10-20% of your gold if you retreat.  You will also not 
+    be allowed regain lost hit points.
+    
+    If the monsters haven't had their turn yet (meaning you got first 
+    attack and retreated), the monsters are allowed their parting blows, 
+    which could kill you.
+    
+                                     Staff
+    
+    For elves and magic users here is a chance for them to use their 
+    staves in battle.  The chance of successfully launching a spell is 
+    dependent upon your level and intelligence.  
+    
+    Spells effect all living monsters.
+    
+                                 Turn Undead  
+    
+    Priests are able to turn undead beasts.  They can only do this once 
+    per combat is determine by their WIS (Wisdom skill) and thier level.  
+    Some monsters are harder to turn then others..... though.  Monsters 
+    such as Skeletons, Zombies etc are Undead (they were dead and are back 
+    alive) regenerating Trolls are not Undead.
+    
+                                   Use Potion
+    
+    This allows you to use a potion in combat.   Try to use it BEFORE 
+    combat for the best results.
+    
+                                 Missile/Melee
+    
+    When you use this command you will be prompted with:  
+    "1. Melee 2. Missile: ",
+    
+    hit the appropriate number.  Depending upon your CRD (coordination 
+    skill) you can put all the monsters into the desired combat mode.  
+    Highly useful for characters without missile weapons or avoiding 
+    monsters without missile weapons.
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                   Page -15-
+    Final strategies:
+    
+    1)  Don't be afraid to use potions, people rarely use them but they 
+    are handy for dealing out extra damage.
+    
+    2)  Purchase a decent ring as soon as possible.
+    
+    3)  Purchase magic weapons at towns.  Depending upon a town's 
+    "magicalness" or "richness" a town will offer enchanted weapons.
+    
+    4)  By God, write down those dungeons words and keep a rough log of 
+    what you are doing in the game.  Don't become mixed up between two 
+    playings on two different boards.
+    
+    5)  Talk to people and read 'Y'our guardian angel stuff in the 
+    cities.  Watch for tricky ways that people say things.  Often times 
+    keywords are in their description or their greetings, or even their 
+    goodbyes.
+    
+    6)  Explore those dungeons and explore those rooms; unlike in Pit 
+    Fiend Volume I, rooms are now walk throughable.
+    
+    7)  Post clues to your friends and help each other out!  The game is 
+    heavy duty and often times two heads are better than one.
+    
+    8)  Explore carefully, look for treasures and even print out dungeons 
+    from your auto-maps.  They are not saved!
+    
+    9)  Nobody in the game is a worthless person to talk to... they ALL 
+    offer suggestions and advice in some way or another (with the possible 
+    exceptions of the McClouds in the first town....)
+    
+    10)  Trolls are not intended for low level characters.  I have seen 
+    WAY To many of the beginning players move onto the bridges and try to 
+    fight trolls.  You will LOOSE!  Take the hard way until you are 
+    roughly 4th level or so.
+    
+    11)  Ask your sysop to allow you to download your character.  If 
+    another sysop is willing upload it to him.  Unlike in Pit Fiend I, 
+    characters can be freely copied without damage to the *.DAT files.  
+    Some sysops have installed the COPYCHAR.COM file and READCHAR.COM 
+    files which allow you to upload a char, copy him to the game, play the 
+    game, and copy him back for you to download.  Some sysops may not want 
+    to do this though.  Each File is 588 bytes long.
+    
+    When and if you upload your character you MUST rename it.... meaning 
+    that for instance if you are user number 23 on one board and 78 on 
+    another you must name your character 23.SAV  or 78.SAV depending upon 
+    the board you call.
+    
+                                   Page -17-
+    Notices:  All identities in the game are used with permission.  Any 
+    identities similiar to yourself or another person living or dead is 
+    purely coincidental.  Many places are taken from California and in 
+    many cases do NOT represent the actual places themselves... with the 
+    exception of Ladera Linda, Angel's Gate (levels one and two), ....
+    
+    Copyright (C) by Eddie Gaul 1990 all rights reserved.
+    
+    If you find a bug with this game let me know....  I have developed 
+    special software to catch bugs in the datafile, but sometimes a bug 
+    will develop.  If its unavoidable I will correct the mistake.  If it 
+    is avoidable I may release an upgrade or something like that.  But 
+    basically it is up to you to contact me.  Often times bugs occur when 
+    people tinker with the files, avoid this temptation.  Also use the 
+    Viewchr2 minimally.  This is not a toy but merely a utility to correct 
+    perhaps a weak person who has gotten terrible rolls on their hit 
+    points or something like that.  
+    
+    Again my address where you can reach me by US mail is:
+    
+       Eddie Gaul
+       2917 Via Rivera
+       Palos Verdes, CA 90274.
+    
+    Again I do say I will NOT return any long distance phone calls and I 
+    do request that you do NOT call me.  I am rarily home and my folks 
+    don't like getting great amounts of calls for someone who isn't home 
+    that much, so please WRITE me if you encounter a bug or a question.  
+    Or you can contact me through the NET, I can usually be found posting 
+    on the Onliner WWIV NET.
+    
+    Adios and we shall see if there is a Pit Fiend's Adventure Volume 3.
+    
+    Later.
+    

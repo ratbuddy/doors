@@ -1,0 +1,225 @@
+                   INSTALLATION, SYSOP, REGISTERATION NOTES
+
+                                    For
+
+                         PIT FIEND'S ADVENTURE VOLUME 2
+
+          How to Install:
+
+            Pit Fiend's Onliner comes with many files.  Most of them are
+          Dungeon Files or Data files.  It will create more as the game is
+          being played, such as *.SAV files.  It is recommended that
+          you read this carefully so that you can save Hard Disk Space and
+          organize your hard Drive Directories Efficiently.
+
+          Settup up the Chain.
+
+          (A) Batch File:
+
+            1.  Create a batch file called PIT2.BAT.  By typing COPY CON
+                PIT2.BAT at the DOS prompt in the WWIV sub directory.
+                Then type the following things: (seperated by carriage
+                returns)
+
+                a.  CD XXXXXXX <---- whatever you decide to name the
+                    sub directory (possibly PITONL2); longest the game
+                    batch file switches directories to whatever
+                    directory ALL the files are in.  Can be any drive,
+                    or directory!
+
+                b.  PITONL2 %1 (the name of the COM file)
+
+                C.  cd.. (back to the WWIV directory!)
+
+                d.  Ctrl-Z (don't actually type words but just CTRL-Z!)
+                    This saves the batch file to your hard drive.
+
+            2.  This will save the batch file.
+
+         Now make a chain using WWIV's Chainedit which will call PIT.BAT by
+         typing the following chain c:\wwiv\pit2 %1.  When pit2.bat is called
+         it will then change directories to the one you out the adventure in
+         and call it, passing the neccessary parms.  This method is also
+         used by Global Wars, if you are confused by it, compare it to the
+         one use by it.  Also note that the Shrink Method is NOT required to
+         play the game.
+
+          Telegard users and others will have to figure out how to do it
+          themselves, as I am not experienced with those systems....
+          As of 6/19/1990 I know of ABSOLUTELY NO WAY TO RUN THIS ON
+          TELEGARD!  SO I DON'T KNOW!
+                                          Page -1-
+
+
+          Initializing the Game:
+
+             This will make sure that the game has not been tampered with or
+             a previous user's locations aren't saved.  Type REROLL2 in
+             game directory.
+
+             This will refresh the table, magic mouth, and
+             weather data files.  It will also erase all files ending in the
+             extension *.SAV --> VERY IMPORTANT.  (if they are in
+             the same sub directory as the onliner).
+
+             You can also run CMMOUTH.COM to renew the magic mouth incase
+             you don't like what somebody said!  Note that PIT2 does not
+             check your TRASHCAN.TXT file, but it does report that kind of
+             stuff to your log, be sure to check it if you have a problem
+             with swearing.
+
+          Chain Requirements:
+
+             This game uses the default for DOS interrupts, which I believe at
+             the present moment is yes.  Your config.sys
+             file must have the string DEVICE = ANSI.SYS in it.  ANSI is a
+             requirement for this game!!!!!!  People who can't support ANSI
+             will have grave misgivings about the game, as it will shoot
+             garbage all over the screen.  It is recommended that 300 baud
+             not be allowed to play for obvious reasons....
+
+          Boards Over 750 users!
+
+          If your board has more than user number 750 please do the following:
+             1)  Register it to the address below and tell me how
+                 many users you do have and I will fix the data files to be
+                 much bigger.
+
+             2)  Make sure that users who's user number is over 750 cannot
+                 play the game....
+
+             The data files are 750 records and if use 751 comes along....
+             unpredictable results will occur....
+
+          Notes on Files:
+
+             If a user is deleted off your board or decides never to call
+             again, or just doesn't want to play can delete the character
+             by conventional ways.... Using VIEWCHR2.EXE will do the trick
+             but you may use DOS's erase or Del command.
+
+             Use the Character Editor to destroy them, entitled VIEWCHAR.EXE
+             Viewchar is meant to be used for these reasons, or for cheating.
+
+             Note that #.SAV are saved by the character's
+             user number.  Make sure you know the character's user number.
+                                      Page -2-
+          Notes on Viewchr2.EXE (registered Versions only)
+
+             This is not an onliner program, it will hang the board if it is
+             used as one.  Viewchar allows the sysop or anyone else for that
+             matter at the keyboard to modify there character to drastic
+             measures.... having given one of my characters a 200 strength,
+             made me nearly invincible.  I suggest using it with caution.
+
+             It was made to repair characters who had been hurt by a bug or
+             just wanted to get a helping hand.  A score greater than 20 in
+             any attribute is very good.
+
+             Viewchar should be handled with care, giving a character an
+             massive amount of anything will spoil the user's ability to enjoy
+             the game!  If you find the monsters are too tough or you want
+             a "walk-thru" character use it!  It will not allow you to modify
+             a character's dungeon location, as this is a confusing process
+             which most likely you will screw up on and put the character in
+             a nonexistant dungeon OR in a dungeon where he can't escape!
+
+             When running Viewchar be sure that it can get to all the *.DAT
+             files in the sub directory, it will need to load all the potions
+             and weapons (etc).  Naturally it must have access to the the
+             *.SAV files!
+
+                                         Page -3-
+
+          Bugs and etc..
+
+
+          If you find a bug in the game (and I know there still are some,
+          nobody's perfect) please write me at the following address with a
+          good description of where, how, and etc this thing happened.  I will
+          try to make a fix on it ASAP.
+
+          If you do find a bug and it is relatively minor, try to avoid it, as
+          I will only send out a new version if it is a major bug...
+
+          Notes on PF2 bugs:  More than likely the source of the bug is in
+          a data file... if it is a single room that glitches out or something
+          have the user avoid that room, if that room is necessary in
+          completing the dungeon please inform me.  Usually when a "ROOM"
+          problem comes up a bunch on high digit numbers will shoot over the
+          screen....  The user can abort out of combat by hitting 'Z'.  
+          Checking programs have been run to check for this kind of stuff....
+          but perhaps a bad download or something....
+     
+          To get in touch with me concerning registration,
+          questions, hints, etc please write, I prefer that you do not call,
+          as I am rarily home and WILL NOT return long distance phone calls.
+
+          My address is:  Eddie Gaul
+                          2917 Via Rivera
+                          Palos Verdes, CA  90274.
+                          USA.
+
+
+                                    Page -4-
+
+
+
+Notes for Pit Fiend Volume I Stuff:  Note that most of the in the first
+adventure is NOT (I repeat NOT) compatible in the slightest with PF2.
+Using VIEWCHAR from PF1 on Pit2 characters could have DISASTROUS results
+(of which I do not want to predict....) and using characters from PF1
+in PF2 is not possible.  Please make Pf1 and PF2 SEPERATE and distinct
+games....  Upon request I may make a convertion program to transport
+characters from one game to the other.
+                *****          ******       *****
+
+REGISTERATION:  Well the copy of this game that you have right now
+is roughly a fourth to a sixth of the game.  In other words you do not
+have the entire game.  It is currently UNSOLVEABLE without registeration.
+You have two of the 14-18 dungeons in the game and 2 of the 10 or so
+cities.  Roughly the entire game takes 500-700K to run.... if a lot of
+player play it might be guessed at one megabyte.
+
+To register the game please send $20.00 US dollars in Cash, Money Order
+(preferred M.O.), or check (allow two weeks or so for it to clear).
+The registered version will be available sometime around July 25, 1990, or
+so...  Send the money to my address:
+
+     Eddie Gaul
+     2917 Via Rivera
+     Palos Verdes Estates, CA 90274
+
+along with the following information:
+
+     The BBS NAME and the Phone Number that you are registering it for:
+
+     And an additional Option:  Saving Automaps... an automap takes up
+     roughly 1.8K or so.... of harddisk room PER PLAYER!  The player will
+     have the option of saving the automap but it will cost you some
+     hard Disk room.  This may or may not be in the registered version,
+     depending upon time considerations etc.
+
+     The Registered Version has the following enchancements:
+
+     More Cities, More Wilderness, Boating (currently closed in the
+     unregistered version), More Dungeons, the Character Editor, the
+     ability to copy chars to and from a down load directory so that two
+     boards with registered copies can transport characters back and forth.
+     If I feel particularily daring I will put back character vs. character
+     combat... but don't bet on it.  Also you will get a Weather.COM file
+     which when run will go through the wilderness maps and check the
+     weather information file and make modifications.....  If it has
+     been particularily hot or dry etc the maps will change.
+
+     I will then send you a disk (3.5 or 5 1/4 (specify)) with the
+     Zipped file on it.  Currently the game is roughly 210K Zipped
+     at roughly 7/8's through....
+
+     I will NOT send a copy of the game to registeree's without a
+     BBS's name and number.
+
+     Also do note that PF1 Enhanced will soon be available, consult
+     the documentation on how to get a copy of that for your board.
+
+
