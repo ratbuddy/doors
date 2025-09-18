@@ -1,0 +1,175 @@
+
+
+
+                        Installation Documents for
+
+
+                     Pit Fiend's Adventure's Volume V
+
+                       "The Flight of the Dragons"
+
+
+                              By Eddie Gaul
+                                AKA Pit Fiend
+
+  Installation for WWIV Boards:
+      PF5 is an extremely simple program to install.  I have
+      made a listing of the things you must do to install
+      PF5 correctly:
+
+        1.  In your ROOT directory of your WWIV you should create
+            a batch file called PIT5.BAT.  To create a batch
+            file you should type the following at a DOS prompt:
+               COPY CON PIT5.BAT.
+        2.  Next I am going to assume I have WWIV set up in
+            the C:\WWIV and I want to put Pit Fiend V in
+            a directory C:\WWIV\PITSTUF5
+            You may have to change the wording above, depending
+            upon your configuration.  Perhaps you run yours off
+            of Drive D or have it C:\BBS\WWIV, or whatever.
+
+        3.  I am now in the Batch file and will type the following
+            things:
+               ECHO OFF
+               CD PITSTUF5 (go to directort where the PF5 game is!)
+               PITADV5 %1 (don't forget the percent sign!!!)
+               CD\WWIV (back to the BBS system directory)
+               CTRL-Z (don't actually type this, just hit it!)
+
+        4.  Now you screen should say:  1 File(s) Copied.
+
+        5.  Now hopefully you have created the sub-directory
+            and have copied the Zip file and its contents
+            into that sub-directory.
+
+        6.  Besure to type REROLL.BAT.  This will run
+            a program called CGAMES and delete old save files
+            (if any).
+
+            Run CPLAYERS.EXE by typing CPLAYERS.  Answer
+            the question about the usernumber as best as possible.
+            The higher the number of course, the longer it will
+            take to search for people, and the more space it takes
+            on your hard drive, but all your users will be able to play.
+            Do note, that later if you get more users, then you alotted
+            the game will have to be rerolled!
+
+        7.  Now, go into Chainedit and run it.  Of course
+            you can set it up by doing the following:
+               Filename : C:\WWIV\PIT5.BAT %1 (call the batch file)
+               ANSI     : YES
+               300 Baud : Sure if you want them to.
+               Shrink   : No.
+               Dos Inter: Yes
+
+        8.  Bingo, you are set, take a break or start on in.
+            Remember that you are allowed to play only one game
+            and registering it will enable you to play in more than
+            one game which makes extremely fun competition.
+
+        9.  Be sure to check out Section III.
+
+   II.  Systems OTHER than WWIV.
+
+   Well, this of course uses the CHAIN.TXT that WWIV has been noted
+   for, but I have not used any of the special colors that WWIV
+   uses.  All the colors are pure ANSI, so if you have a converter
+   use it!  I should also mention that this game does NOT check
+   itself for Hangups or Time Outs.  Quite nicely, WWIV does that
+   automatically for me so you may also have to use programs
+   such as Bulldog or Gateway.  To my knowledge, this game works
+   fine with Celerity BBS systems with a conversion program.
+
+   Again I know very little about other BBS systems.  I have
+   called a Telegard board once or twice, but that's it folks.  Seen
+   Compuserve and stuff like that also, but know very little about it.
+   If you get my program to work on your system drop me a line or something.
+
+   III.  Registering PF5 and Sysop Notes
+
+   This program will create more files as the game progresses.  None
+   should be alarmingly big at all.  There is a message file for each
+   game which is about 3.5K and the save, which is 800 or so bytes long.
+   Other than that, you may have to force some people to get a move on
+   in their games as well.  You can use the program called DELETER
+   to delete games.  Just run it and you will be guided through a listing
+   of the games whereupon you can make room for new people.
+
+   You may want to put the *.doc files into PIT5DOC.ZIP in the download
+   section for people to download and read.  Please do not seperate the
+   documents from the game though as this game will display them if a person
+   wants to view them.
+
+   Registering:
+      Here's the scoop:
+
+      If you have registered ANYTHING with me before (PF1-4) you can
+      score this game for a mere $5.00 PLUS any upgrades that you
+      might be needing for absolutely free (for PF1-4).
+
+      If you haven't registered ANYTHING with me before than you
+      have to pay $10.00 to register it.  You will also receive
+      a FREE copy of Pit Fiend Adventure's Volume I.  This version
+      has several SERIOUS combat bugs fixed, has automapping, and in
+      short is faster.  Although a few quirks still exist, it
+      runs much better than the unregistered one (also won't leave
+      loose clusters on your Hard Drive....)
+
+      Fill out the blank below or on a sheet of paper and
+      and send it to yours truly:  Eddie Gaul
+                                   2917 Via Rivera
+                                   Palos Verdes, CA  90274
+
+      Your Name:________________________________
+      Your Address:_____________________________
+      Your City:_______________________________, State:_____
+      Zip Code:__________________
+      Country:_______________ (if not Canada, Mexico, or US add $3.50 for
+                               postage and handling)
+      Home Phone (Optional):___________________
+      BBS Number (required):___________________
+      BBS Name   (Required):___________________
+      BBS Type:_________________
+      Version Number:_______________ (On title screen ('TITLER2.ANS'))
+      Net Number (if applicable): _________
+
+  If you are reading this and wondering what the heck is PF1-4 you
+  can send $4.00 and I'll send you the latest versions (unregistered)
+  of those games or you can download them from various BBS's like
+  Compuserve, Amber, or Genie.  I can be reached for questions
+  and comments as 19 @ 2350 on the WWIV net.
+
+  A place to download all the latest versions of Pit Fiend's Adventures
+  is:
+      Mindcraft BBS (213) 320-5196 (2400-300) no ratios, easy validation.
+
+  I'd like to thank the following people for help with this game:
+    General Zennor, Iron Horse, Milamber, Mystic, Eldritch, and many
+    many others who played the game and in short tested the balance
+    of the game.
+
+    Author Notes:
+       Well this game was programmed in Turbo Pascal 5.5 and
+       Assembly.  First game I have written that fit in ONE code
+       segment in a long time.  Actually it could have been a
+       COM file but I wanted some experience with 5.5.  Took one
+       week to program the whole thing (really no joke!),
+       1700 lines of main code, 2 units, and a 7 line main EXE area.
+
+       If you find a bug contact me at 19 @ 2350, I usually offer
+       discounts to those that are the first to report a bug to me
+       that is serious enough to warrant a new version.  Special
+       thanks to Socrates way out in Louisiana for his help in finding
+       several serious bugs in the unregistered versions of Pit Fiend's
+       Adventures Volume IV.
+
+          Latest Versions of Pit Fiend Games:
+             Volume 1 -- Version C
+             Volume 2 -- Version C
+             Volume 3 -- Version B
+             Volume 4 -- Version D
+          If you are running a version different from one of those,
+          it is highly recommend that you get the latest to avoid
+          errors.  Keep in touch with the WWIV onliner NET discussion.
+          As I usually post bugs and/or problems that can be easily
+          corrected.
