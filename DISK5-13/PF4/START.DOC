@@ -1,0 +1,103 @@
+
+
+
+
+                     Pit Fiend's Adventure's Volume IV
+
+                             Starting Instructions
+
+                             By Eddie Gaul
+                             AKA Pit Fiend
+
+      When you first start Pit Fiend IV you will be prompted
+      by a something that looks like this:
+
+           Welcome to PF IV, Pit Fiend!
+           You are Currently in Game A
+           Choices:
+           (D)ocumentation
+           (L)istings of People
+           (Q)uit
+           (P)lay your Game
+           (R)emove Self from an Unplayed Game
+           (S)ign up for a Game
+           (V)iew People in a game
+           Choice:
+
+       You pick you selection by hitting the correct letter.
+
+         Documentation:  You can get help by reading this.
+         You will be given a choice of the various instructions
+         files and their importance to the game.
+
+         Listings of People:  This little feature will pick
+         out everybody that has ever logged into the game and
+         show their win/loss ratio.
+
+         Quit:  Returns you back to the BBS.
+
+         Play:  If there are FOUR (4) people in a game you will be
+         allowed to play.  If you have been killed you still cannot
+         join another game until it is finished.  Once the game
+         is finished you are free to choose a new game.
+         A game can only be played if and only if there are four
+         people in it.
+
+         Remove Self:  If you have Signed up for a game and there
+         are not FOUR players in it, you can remove yourself from it.
+         If there are four players in it and the game has not yet
+         begun you cannot remove yourself.
+
+         Sign Up for a Game:  If there are NOT FOUR (4) people in a game
+         you can add yourself into the game.  When there are four people
+         in it the game will comence.  If you are the fourth person, you
+         will get the first turn.  When you sign up for a game you will
+         be asked what race you want to be in the game.  This is
+         absolutely crucial to your survival so read carefully:
+
+             Dwarfs:  Dwarfs are sturdy little creatures.  They
+             start off with the most Footmen (see Play.Doc) and
+             the most Knights of any force.  They receive less
+             wizards and archers.  They receive up to FOUR cards
+             per turn with the following options (see Play.Doc):
+             A dwarf winning a game receives TWO points for winning.
+             Dwarves are immune to the Earthquake spell.
+                1:  They can discard ALL of their cards if
+                    they do NOT play ANY action during their
+                    turn.
+
+             Humans:  Humans are fairly strong people.  Their forces
+             come out relatively balanced.  They are usually the BEST
+             option to take for new players.  They receive up to
+             FIVE cards per turn and have the option of discarding
+             ONE no matter what at the end of their turn.
+
+             Elves:  Elves receive a heavy bonus in the archery and
+             wizard departments.  They have the biggest amount
+             of cards, but have extremely poor chance of survival
+             in close combat.  They receive up to SIX cards per turn
+             and have the option to discard TWO and only two if they
+             don't play an ACTION that turn.  Elves are powerful
+             but should be used only by a skillful player.
+
+         View People in a Game:  This option allows you to see
+         who is playing a game.  So basically it is wise
+         to hit S to sign up for a game and then abort out of
+         the signing up process and look to see who is playing
+         it.  (The reason why I did this should be apparent in
+         a registered version.....).  It will show the people's
+         names who are playing it.
+
+  Object of the Game:
+    The object of the game is to do ONE of the following two things:
+       a) Kill everybody in the game
+       b) or Reach Range 5 (see Play.Doc)
+
+  You can only play a game ONCE per day.  Technically, you can play
+  twice in twenty-four hours though, that is you can play at 6:00pm
+  on a Monday and 6:00am on Tuesday.  Once you enter a game by hitting
+  P, your time is updated, so if you get disconnected or quit by
+  accident, then you must wait till the next day to play again.
+  (This prevents players from hanging up on a game if things don't
+  go their way).
+

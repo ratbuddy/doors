@@ -1,0 +1,378 @@
+
+
+
+                      Pit Fiend's Adventure Volume IV
+
+                            By Eddie Gaul
+
+                            Aka Pit Fiend
+
+
+     Most of you are probably confused as heck as to what a "range"
+     is or what I mean by a Footmen or Archer.  Or even what an Action
+     is.  DO NOT WORRY, IT WILL BECOME CLEAR, READ ON!
+
+     First Off I think I should draw a rough picture of what you will
+     see of the screen:
+
+The Very first thing I should say is What an Action is?
+  An action is ANYTHING that a group does.  At the start of each
+  turn each player's group's actions are cleared.  Each group
+  (i.e. Archers, Footment, Wizards etc) may perform on ACT, such
+  as moving, firing, jumping in terrain, etc.  Using such cards
+  as Earthquake and Forest Fire count as actions against wizards
+  and footmen respectively.  A group CANNOT play more than one
+  action per turn.  When a group plays an action a red flashing
+  * will appear next to the group letter.  If none is there
+  they have yet to play an action.
+
+(Top of Screen): Cards in Hand will be drawn here.
+(Parser Line): Choice (CDEFPR?):
+
+             #1:  Pit Fiend - Human                 #2:  Lukas - Human
+                   Q   T   S   R                          Q   T   S   R
+     a) Archers:   6   =       0            a) Archers:   6   C       1
+     b) Footmen:   4   =       0            b) Footmen:   4   =   S   0
+     c) Wizards:   3   =       0            c) Wizards:   3   =       0
+     d) Knights:   2   =       0            d) Knights:   2   =       0
+     e) Dragons:   1   =       0            e) Dragons:   1   =       0
+
+             #3:   Iron Horse - Dwarf               #4:  Raelini! - Elf
+                   Q   T   S   R                          Q   T   S   R
+     a) Archers:   2   =       0            a) Archers:   7   T       4
+     b) Footmen:   8   =       0            b) Footmen:   6   =       1
+     c) Wizards:   2   =       0            c) Wizards:   5   =       2
+     d) Knights:   8   =       0            d) Knights:   4   =       0
+     e) Dragons:   1   =       0            e) Dragons:   3   =       0
+
+
+ This is a sample of what MAY happen in the late stages of the game.
+ Some discussion is Necessary  Naturally it shows the names of the
+ people (thanks to many of those folks who let me "borrow" their names)
+ and the race that they have chosen to be.
+
+ Your first notice will be what the heck is Archers, Footmen, Wizards,
+ Knights, Dragons....
+   Archers:  These guys are the range shooters.  They are pretty decent
+   at ranges 2-3.  Any closer or further away they loose their
+   effectiveness.  At close range they are worthless as attackers.
+
+   Footmen:  These are the backbone of the army.  The cannon fodder.
+   Footmen are usually the ones to get close in and do the dirty work
+   of disposing of the enemy at close range.
+
+   Wizards:  These people are like archers.  They are best at ranges
+   2-4 and can cast a variety of spells, dependent upon the cards.
+   Such spells as Earthquake and Smoke are very helpful in making
+   an enemy fall to their knees.
+
+   Knights:  These are like the Footmen except they are stronger
+   and harder to kill.
+
+   Dragons:  The most powerful piece of fighting machine.  Deadly
+   at close range, and even worst of all, deadly in quantity.  A player
+   possessing a pair of these monsters should be stopped before they
+   burn an opponent to a crisp!
+
+                    ________________________________
+
+
+   The Q stands for Quantity.  A number will be placed below it
+   indicating how many of that particular unit they have.  For instance
+   Lukas has 6 Archers.
+
+   The T stands for Terrain.  A lengthy description follows:
+
+        Depending upon what terrian you are in, the better (or worse)
+        chances you have of staving off an attack.  A players
+        terrain will be flashing RED if they are moving.  A moving
+        army is a much easier kill.  So kill somebody you see moving.
+
+        Clear Terrain:  Offers NO protection.  Is represented by a '='.
+        Woods        :  Offers good protection (-20%) and is represented
+                        by a  (alt - 157).  Can be hit by a Tree Burn
+                        action.
+        Brush        :  Offers decent protection (-10%) and is
+                        represented by a B
+        Hills        :  Represented by a ï (alt - 239).  This offers
+                        minus 10% to defense and adds 10% if you are
+                        attcking FROM it!
+        Towers       :  Represented by a T.  This offers -30% but
+                        is susceptible to an earthquake spell.
+        Castles      :  Represented by a C.  This offers -40% but
+                        is susceptible to an earthquake spell.
+        Swamps       :  Causes the player to suffer with a -10% on
+                        attacks as well as defense.  It takes a
+                        movement action to get out with no range
+                        increment and there is a 50% failure of
+                        getting out and the action wasted.  This is
+                        represented by a Twisting sideways 8.  You may
+                        play a swamp against another play.  Do note,
+                        that it is NOT an action to play one on
+                        an opponent!
+
+
+    S column is for Smoke.  If a player is afflicted with smoke his
+    column will show an S.  Smoke has the same defensive properties
+    as a swamp does but is easy to get out of.  Merely by moving
+    (in any direction) and then placing terrain will get rid
+    of smoke.
+
+    R Range....  Each player starts out at range 0.  One of the
+    objectives to the game is to reach range 5.  A player plays
+    movement cards in order to move backwards or forwards or sideways.
+    Sideways means just moving from side to side and not into another
+    army.  Basically used to switch terrains without advancing.
+    No player can get past range 5 or below 0.
+
+    Player's distances can be computed by ADDING the ranges.  Therefore
+    Pit Fiend's Archer at Range 0 and a Footmen of Lukas's team at range
+    0 are at range 0.  Where if I was at range 3 and his was at 1
+    we'd be at RANGE 4.  Do note that a player cannot exceed 5.  Meaning
+    that let's say Lukas's Dragon is at Range 3 and my archer is at
+    range 2.  We therefore are at range 5.  I CANNOT move my archer
+    to range 3 (3+3 > 5) without first KILLING all of Lukas's Dragons.
+    If and when I do this, his 0 dragons will be set back to zero.
+    A similar situation is above where Raelini's Archers are at
+    Range 4 where Lukas's archers at 1.  Raelini cannot move forward
+    to win the game until she defeats Lukas's archers or Lukas moves
+    his archers back.
+
+The Cards:
+   Here are some of the various cards in the game and their abbreviation.
+   A detailed description follows each so read on carefully:
+
+    Quantity   Abbreviation   Description
+       8           WODS         Play a Wood Terrain Card on
+                                ANY moving group!
+      12           BUSH         Play a Bush Terrain Card on
+                                Any moving Group!
+       9           HILS         Play a Hill Terrain Card on
+                                Any moving Group!
+       7           TOWR         Play a Tower Terrain Card on
+                                Any moving Group!
+       5           CASL         Play a Castle Terrain Card on
+                                Any moving Group!
+       9           SWAM         Play a Swamp terrain Card on
+                                an opponent or your Group!  Must
+                                be moving.
+      Placing Terrain:
+      A group that is eligible to receive terrain must:
+        1) NOT have played an action that turn
+        2) Must be moving, a stationary group cannot receive terrain.
+
+      31           MOVE         This card allows you to move:
+      Forwards/Backwards/or Sideways.  See movement rules for above.
+      A group may not move past range 5 or below range 0.  Sideways
+      will enable you to change terrain without modifying your range.
+      A group that plays a movement card uses their action for their
+      turn.  Meaning that you cannot play a movement and a terrain
+      card on the same team in the same turn!  You may only run
+      TWICE before you MUST play a terrain card.  Meaning you cannot
+      rush to range 5 with 5 movement cards.  A moving group fires
+      at half strength and defends poorly (by 10% for each movement card).
+      A flashing RED terrain indicator means that group is moving.
+
+
+      55           FIXX          Fire Card.  See Fire Rules.
+                                 The XX stands for the neccessary
+                                 fire strength neccessary to fire
+                                 a card.  Therefore a FI18 means
+                                 that a group must have 18 strength
+                                 points to fire.
+      10           RFAR          Reinforces Archers from 1 to 6.
+                                 Constitutes the Archer's Actions
+                                 for that turn.
+      10           RFFT          Reinforces the Footmen by 1 to 6.
+       6           RFWZ          Reinforces the Wizards by 1 to 3.
+       4           RFKT          Reinforces the Knights by 1 to 3.
+       2           RFDG          Reinforces the Dragons by 1 to 2.
+       6           SMKE          Causes Smoke to be placed on
+                                 anybody.  Smoke can only be removed
+                                 by moving out of the that range
+                                 (or my moving Sideways).  The Smoke
+                                 effects are taken off when a new
+                                 terrian is placed on the affected group.
+                                 Smoke hinders firing into by 10%
+                                 and out of by 10%.  So it is both
+                                 good and bad.  Requires atleast
+                                 ONE wizard to use and constitutes
+                                 the Wizard's Actions.
+        2          ERQK          Causes the following things to happen
+                                 if the player has atleast 5 wizards.
+                                   A) if the affected player that has
+                                      any groups in a Castle, that
+                                      Castle is reduced to a Tower.
+                                   B) If the affected player had any
+                                      groups in a Tower, that Tower
+                                      is reduced to a Hill.
+                                   C) Dragons in Castles/Towers
+                                      are NOT affected in any manner.
+                                   D) Each Footmen has a 75%
+                                      Each Archer has a 75%
+                                      Each Wizard has a 65%
+                                      Each Knight has a 55%
+                                      of dying.
+                                   E) The player who casts an Earthquake
+                                      has used their Wizard's Actions
+                                      for that turn!
+           3      FIRE             This requires 12 or more Footmen.
+                                   Tree burn is exactly like a
+                                   Earthquake (in terms of percentages)
+                                   except dragon's percentage is 15%.
+                                   Any group in a Forest will loose
+                                   their Forest Terrain and have it
+                                   turn into Clear Terrain, movement
+                                   will stop if applicable.
+                                   This counts as the Footmen's
+                                   action for that turn.
+           1      HERO             For each of your Knights you have
+                                   a 10% chance of killing an opponents
+                                   Dragons.  Terrain and any other
+                                   modifications do NOT apply.
+                                   Counts as a Knight's action for that
+                                   turn!
+
+
+  Choices
+
+  You will be presented with some options:
+    Choice:  (CDEFPR):
+      C = Clear Terrain, you may use ANY card you want to
+          stop the movement of a group.  This is an easy
+          way to get rid of extra cards, but also consider you are
+          not getting any defensive protection!  Constitutes
+          as an action for the group that receives the clear
+          terrain.
+      D = Depenpendant upon race.  An action is termed as an act.
+          Each group may perform one act.  If your race provides
+          that you NOT play an action to discard, that means that
+          you cannot play a single card on any group!  See
+            Humans can discard one card no matter how many actions
+            they play.
+            Elves can discard TWO cards if they play NO actions.
+            Dwarves can discard up to all FOUR cards if they play
+            no Actions in their turn.
+          Once you discard that is THE END of your turn!
+      E = End your Turn and come back to the BBS
+      F = Use Fire Card.  See Fire Rules
+      P = Play any other card than a fire card.
+      R = Reports, each time a player does something in the game
+          it goes into a file MESS+Character of the Game+.SAV.
+          When you hit R you will be presented with the following opts:
+             (M)essage Send Put your own Global threat or hate message.
+             Keep it clean.  You are allowed to send two (2) per play
+             and constitute NO ACTION.
+             (Q)uit, go back to the game.
+             (R)ead All.  Will print all the Messages in the game.
+             (S)can.  Allows you to read a portion of the messages.
+          The game keeps only 50 of them.  So keep up with them.
+          They are generally short.  Therefore the first thing
+          you should do is read the messages BEFORE doing anything
+          to see if anybody has attacked you.
+      ? = Shows you the choices in their full names.
+
+
+Fire Rules:
+
+      Here is a table showing you some facts about the various
+      strengths of the various groups.  This table is considered
+      to assume a group of ONE.  Meaning 1 Archer, 1 Footman etc.
+    Range  0        1       2       3      4      5     Defense Modification
+
+Archer     1       1.5      2       2      1     0.5      0
+Footman   0.5      1        1.25    1.75   2.25   3       8
+Wizard     1       2        3       3      1     0.5      16
+Knight    0.75     1        2       3      4      5       32
+Dragon     5       6        7       8      9     10       48
+
+What does this all mean?  Well it means that if I have 12 Archers
+at Range 2 then I can use 24 point in fire power.  Each fire card
+has a number on it.  You can use any combination of fire power cards
+up to your maximum to fire.  When you hit 'F' you will be prompted with
+the following:
+
+  A-F,0 to fire,?:
+
+  By hitting ? you will be asked to find what group you are intending
+  to use to fire with.  It will ask you who your target is.  It will
+  then compute the maximum firepower that you can muster, it is
+  recommended that you do this always to select the best possible
+  combination of fire cards.
+
+  By hitting A-F you can select cards.  A number in command line
+  will tell you how many points you have selected.  Hit 0 to commence
+  the firing.  If you over select firepower it will tell you and
+  cancel firing.  If you decide not fire hit 0, it will not charge an
+  action and cancel firing.  Remember you can use as many fire cards,
+  as you want, so long as you have the group strength to back them up.
+
+  Your fire strength is then multiplied by 10, resulting in a
+  percentage.
+
+  The Defense modification is how hard it is too kill someone.
+  Meaning a Footmen is easier to kill than a Dragon.  This is inherent.
+  It is added in with ANY terrain bonuses you may be receiving.  This
+  modification is multiplied by 8, plus an bonuses from terrain, smoke,
+  etc to result in a percentage which is subtracted from the attacker's
+  percentage.
+
+  Percentages of 0 or less have a 1% chance of killing and percentages
+  greater than 99 are 99% effective.
+
+  Once the percentage is computed it then determines how many are killed.
+  You will be asked if you like the chances and you may abort the fire
+  mission if you do not like the odds without loss of action or cards.
+  The results of combat are random, not guarenteed.  So if you have a
+  75% of killed each of 4 Knights and only kill 1..... well then that's
+  how the cookie crumbles.
+
+  If you kill an entire group their terrain is removed and they are
+  sent back to zero range.  Of course, they may get reinforcements later
+  and continue along the merry route of winning, but that is hard to
+  come by.  You get no extra points for eliminating a person.  When a
+  person is Completely eliminated they are not allowed back into the
+  game, therefore their army will never regenerate.
+
+  When you call back next day, you will have new cards, depending
+  upon what was played and discarded.  There are 184 cards, watch
+  for the reportlog to say when it was reshuffled.
+
+  Strategies:
+     1)  Use smoke when you want to reduce an opponents archer's
+         strength.  Or use them on yourself when you are going
+         to be on the "move".
+
+     2)  Use those swamps on an advancing army.  Use them especially
+         when you are running low on men and are trying to stave
+         off an advancing opponent.
+
+     3)  Remember your race.  Dwarves, don't hestitate to spend
+         turns to discard all your cards.  Elves, use those cards,
+         and humans discard when you can.  Humans have an advantage
+         in the discard department but are the weakest initially.
+
+     4)  Watchout for the elves at the beginning, their archers must
+         be stopped.
+
+     5)  Be EXTREMELY fearful of ANYONE no matter what range they
+         are at with more than ONE DRAGON.  Three of 'em killed
+         practically everyone once.  If you get a Reinforce Dragon
+         use it!
+
+     6)  Use the Send Message Commands to work people.  Pick on
+         one opponent to get him out of there.  The game becomes
+         very long if everybody chips away at everybody else.
+
+     7)  Don't forget you can run SIDEWAYS, advancing into the
+         Archer's crosshairs is a deadly thing to attempt.
+
+     8)  Call often and realize which player's don't call a lot.
+         There are no bonuses for missing days.  Meaning if no
+         one calls in five days you can win by advancing to range
+         five.  In other words, there are NO make up turns.  If
+         you miss a day, that's your tough.
+
+     9)  Know when to hold them and when to fold em.  Save fire
+         cards for moving targets, discard junk cards (extra
+         terrain) etc.

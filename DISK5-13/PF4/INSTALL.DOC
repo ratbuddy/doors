@@ -1,0 +1,162 @@
+
+
+
+                        Installation Documents for
+
+
+                     Pit Fiend's Adventure's Volume IV
+
+                          "The Siege of the Lands"
+
+
+                               By Eddie Gaul
+                                  AKA Pit Fiend
+
+  Installation for WWIV Boards:
+      PF4 is an extremely simple program to install.  I have
+      made a listing of the things you must do to install
+      PF4 correctly:
+
+        1.  In your ROOT directory of your WWIV you should create
+            a batch file called PIT4.BAT.  To create a batch
+            file you should type the following at a DOS prompt:
+               COPY CON PIT4.BAT.
+        2.  Next I am going to assume I have WWIV set up in
+            the C:\WWIV and I want to put Pit Fiend IV in
+            a directory C:\WWIV\PITSTUF4
+            You may have to change the wording above, depending
+            upon your configuration.  Perhaps you run yours off
+            of Drive D or have it C:\BBS\WWIV, or whatever.
+
+        3.  I am now in the Batch file and will type the following
+            things:
+               ECHO OFF
+               CD PITSTUF4 (go to directort where the PF4 game is!)
+               PITADV4 %1 (don't forget the percent sign!!!)
+               CD\WWIV (back to the BBS system directory)
+               CTRL-Z (don't actually type this, just hit it!)
+
+        4.  Now you screen should say:  1 File Copied.
+
+        5.  Now hopefully you have created the sub-directory
+            and have copied the Zip file and its contents
+            into that sub-directory.
+
+        6.  Run CPLAYERS.EXE by typing CPLAYERS.  Answer
+            the question about the usernumber as best as possible.
+            The higher the number of course, the longer it will
+            take to search for people, the more space it takes
+            on your precious hard drive, but all your users
+            will be able to play.
+
+        7.  Now, go into Chainedit and run it.  Of course
+            you can set it up by doing the following:
+               Filename : C:\WWIV\PIT4.BAT %1 (call the batch file)
+               ANSI     : YES
+               300 Baud : Sure if you want them to.
+               Shrink   : No.
+               Dos Inter: Yes
+
+        8.  Bingo, you are set, take a break or start on in,
+            after all, the unregistered version has only 3
+            games going on at once.  Consider registering
+            it for the full 26 and allow people to play in more
+            than one game.
+
+        9.  Be sure to check out Section III.
+
+II.  Systems OTHER than WWIV.
+
+Well, this of course uses the CHAIN.TXT that WWIV has been noted
+for, but I have not used any of the special colors that WWIV
+uses.  All the colors are pure ANSI, so if you have a converter
+use it!  I should also mention that this game does NOT check
+itself for Hangups or Time Outs.  Quite nicely, WWIV does that
+automatically for me so you may also have to use programs
+such as Bulldog or Gateway.
+
+Again I know very little about other BBS systems.  I have
+called a Telegard board once or twice, but that's it folks.  Seen
+Compuserve and stuff like that also, but know very little about it.
+If you get my program to work on your system drop me a line or something.
+
+III.  Registering PF4 and Sysop Notes
+
+This program will create more files as the game progresses.  None
+should be alarmingly big at all.  There is a message file for each
+game which is about 3.5K and the save, which is 800 or so bytes long.
+Other than that, you may have to force some people to get a move on
+in their games as well.
+
+You may want to put the *.doc files into PIT4DOC.ZIP in the download
+section for people to download and read.  Please do not seperate the
+documents from the game though.
+
+Registering:
+   Here's the scoop:
+
+      If you have registered ANYTHING with me before (PF1-3) you can
+      score this game for a mere $5.00 PLUS any upgrades that you
+      might be needing for absolutely free (for PF1-3).
+
+      If you haven't registered ANYTHING with me before than you
+      have to pay $10.00 to register it.  You will also receive
+      a FREE copy of Pit Fiend Adventure's Volume I.  This version
+      has several SERIOUS combat bugs fixed, automapping, and in
+      short is faster.  Although a few quirks still exist, it
+      runs much better than the unregistered one (also won't leave
+      loose clusters on your Hard Drive....)
+
+      Fill out the blank below or on a sheet of paper and
+      and send it to yours truly:  Eddie Gaul
+                                   2917 Via Rivera
+                                   Palos Verdes, CA  90274
+
+      Your Name:________________________________
+      Your Address:_____________________________
+      Your City:_______________________________, State:_____
+      Zip Code:__________________
+      Country:_______________ (if not Canada, Mexico, or US add $3.50 for
+                               postage and handling)
+      Home Phone (Optional):___________________
+      BBS Number (required):___________________
+      BBS Name   (Required):___________________
+      BBS Type:_________________
+      Version Number:_______________ (On title screen ('TITLER2.ANS'))
+      Net Number (if applicable): _________
+
+  If you are reading this and wondering what the heck is PF1-3 you
+  can send $3.00 and I'll send you the latest versions (unregistered)
+  of those games or you can download them from various BBS's like
+  Compuserve, Amber, or Genie.  I can be reached for questions
+  and comments as 19 @ 2350 on the WWIV net.
+
+  I'd like to thank the following people for help with this game:
+    Iron Horse :  for running the very first version of this game
+                  and have it lock up your BBS.  Again sorry about
+                  this and thanks for the beta site.
+
+    Raelini!   :  Thanks for the Betaing on this one, kinda short
+                  on time out there but any beta testing is better
+                  than none.  Thanks for the beta testing site
+                  and a place to get Net mail.
+
+    Knight Errant, Dragonmaster, Tanis and a bunch of other people,
+    thanks for the testing and enthusiasm.  Maybe one day I'll do
+    another FRPG like PF3, maybe but I doubt it!
+
+    Author Notes:
+       Well this game was programmed in Turbo Pascal 5.5.  First
+       game I have written that fit in ONE code segment in a long
+       time.  Actually it could have been a COM file but I wanted
+       some experience with 5.5.  Took one week to program the whole
+       thing (really no joke!), 1700 lines of main code, 3 units,
+       and a 7 line main EXE area.  Took 2 weeks to beta and do the
+       documentation.
+
+       If you find a bug contact me at 19 @ 2350.  Later!
+
+
+
+
+
